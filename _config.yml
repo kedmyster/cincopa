@@ -19,7 +19,6 @@ url:
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-theme: minima
 gems:
 - jekyll-feed
 exclude:
