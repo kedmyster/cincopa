@@ -10,6 +10,20 @@ transactions:
   - 
   text: 'Joint financial advisor to the Coordinating Committee of the Secured Vessel
     Lenders   '
+- year: 2015
+  status: Sold
+  title: T4U / Fishman Group to Blackstone
+  image:
+  - 
+  - 
+  text: Financial Advisor to the fishman group
+- year: 2016
+  status: Sold
+  title: Har-Tuv Plant to Someone
+  image:
+  - 
+  - 
+  text: 'Financial Advisor to Nesher and Clal Industries '
 layout: page
 ---
 
