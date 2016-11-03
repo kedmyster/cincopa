@@ -7,14 +7,14 @@ about-us:
     as an independent investment banking boutique that provides a comprehensive suite
     of financial advisory services to corporations, private equity founds and high
     net-worth individuals.
-  cta: Read More
+  page: 
 corporate-advisory:
 - title: Corporate advisory
   text: 'Over the years CINCOPA has gained extensive experience in tailoring creative
     financing solutions for clients, among them leading international financials sponsors,
     and has demonstrated the ability to import  international financing solutions
     by adapting to Israeli business environment.   '
-  cta: Read more
+  page: 
 recent-transactions:
 - title: Recent transactions
   text: CINCOPA has extensive experience in orchestrating all types of M&A financials
@@ -26,6 +26,7 @@ recent-transactions:
     status: Sold
   - year: 2016
     status: Sold
+  page: 
 Overview:
 - title: Overview
   text: Intense focus on providing not only top
@@ -40,7 +41,7 @@ Overview:
     title: M&A advisory
   - image: 
     title: Management & board advisory
-  cta: Learn more
+  page: 
 layout: main
 ---
 
