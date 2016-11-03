@@ -33,6 +33,7 @@ bullets:
     This enables us to avoid the potential conflicts that may arise in larger, more
     diversified companies. In addition, the smaller size of our company enables us
     to provide clients with strict confidentiality at all times.
-layout: page
+layout: philosophy
 ---
 
+lolza

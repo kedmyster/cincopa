@@ -24,6 +24,6 @@ transactions:
   - 
   - 
   text: 'Financial Advisor to Nesher and Clal Industries '
-layout: page
+layout: recent_transactions
 ---
 

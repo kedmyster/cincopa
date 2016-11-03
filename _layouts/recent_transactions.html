@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<section class="section">
+    <div class="transactions">
+        {% for transaction in page.transactions %}
+            <div class="transaction">
+                <div class="year">
+                    <p>{{transaction.year}}</p>
+                </div>
+                <div class="status">
+                    <p>{{transaction.status}}</p>
+                </div>
+                <div class="title">
+                    <h2>{{transaction.title}}</h2>
+                </div>
+                <div class="images">
+                    {% for image in page.images %}
+                        <img src="{{images.image}}"/>
+                    {% endfor %}
+                </div>
+                <div class="text">
+                    <p>{{transaction.text}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+

@@ -1,10 +1,24 @@
 ---
 layout: page
 ---
+<section class="section">
+    <div class="managers">
+        {% for manager in page.managers %}
+            <div class="manager">
+                <div class="image">
+                    <img src="{{manager.image}}"/>
+                </div>
+                <div class="name">
+                    <h2>{{manager.name}}</h2>
+                </div>
+                <div class="title">
+                    <h3>{{manager.title}}</h3>
+                </div>
+                <div class="text">
+                    <p>{{manager.text}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
 
-{% for manager in page.managers %}
-    <img src="{{manager.image}}"/>
-    <h2>{{manager.name}}</h2>
-    <h3>{{manager.title}}</h3>
-    <p>{{manager.text}}</p>
-{% endfor %}
