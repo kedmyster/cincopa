@@ -1,7 +1,7 @@
 ---
 title: Philosophy
 date: 2016-11-02 11:28:00 Z
-philosophy:
+our-philosophy:
   text: We were founded on a strong belief in a set of business principles that guide
     us in our work. These principles allow us to be free of the potential conflicts
     of interest created within large, multi-product financial institutions.
