@@ -30,7 +30,7 @@ recent-transactions:
 Overview:
 - title: Overview
   text: Intense focus on providing not only top
-  advisory:
+  advisories:
   - image: 
     title: Private equity advisory
   - image: 
