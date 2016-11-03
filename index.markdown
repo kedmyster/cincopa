@@ -16,7 +16,11 @@ corporate-advisory:
     by adapting to Israeli business environment.   '
   cta: Read more
 recent-transactions:
-- titl
+- title: Recent transactions
+  text: CINCOPA has extensive experience in orchestrating all types of M&A financials
+    and structured transactions
+  Key:
+  - 
 layout: main
 ---
 
