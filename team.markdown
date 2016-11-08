@@ -1,7 +1,7 @@
 ---
 title: Team
 date: 2016-11-02 11:28:00 Z
-permalink: /team/
+permalink: "/team/"
 team-mates:
 - image: 
   name: Nir Epstein
@@ -46,3 +46,4 @@ team-mates:
     Sed dapibus tempor hendrerit. Curabitur consectetur neque et blandit ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligula purus. Praesent nec lobortis ex. Donec eget lectus libero. Proin pellentesque nibh eget pellentesque aliquam. Mauris pharetra tempus lorem, at pellentesque nibh congue id. Maecenas vitae auctor lacus. Vestibulum et lectus suscipit, efficitur diam a, finibus leo. Morbi ac sollicitudin lorem. Nunc cursus faucibus sem at luctus. Nunc faucibus orci vel malesuada condimentum. Sed tincidunt nulla non molestie lobortis.
 layout: team
 ---
+

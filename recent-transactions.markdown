@@ -1,8 +1,8 @@
 ---
 title: Recent transactions
 date: 2016-11-02 11:24:00 Z
+permalink: "/transactions/"
 position: 3
-permalink: /transactions/
 transactions:
 - year: 2014
   status: "$3.15 BN"

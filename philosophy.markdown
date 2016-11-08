@@ -1,7 +1,7 @@
 ---
 title: Philosophy
 date: 2016-11-02 11:28:00 Z
-permalink: /philosophy/
+permalink: "/philosophy/"
 our-philosophy:
   text: We were founded on a strong belief in a set of business principles that guide
     us in our work. These principles allow us to be free of the potential conflicts
@@ -36,3 +36,4 @@ bullets:
     to provide clients with strict confidentiality at all times.
 layout: philosophy
 ---
+
