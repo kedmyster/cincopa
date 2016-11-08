@@ -1,5 +1,5 @@
 ---
-title: Management
+title: Team
 date: 2016-11-02 11:28:00 Z
 managers:
 - image: 
@@ -46,4 +46,3 @@ managers:
 layout: management
 ---
 
-Management
