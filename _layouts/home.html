@@ -1,81 +1,96 @@
 ---
 layout: default
 ---
-
-{{ site.tagline }}
-
-<section class="section about-us">
-    <div class="container ">
-        <div class="title">
-            <h2>{{ page.about-us.title }}</h2>
+<div class="homepage">
+    
+    <div class="section hero">
+        <div class="container">
+            <div class="logo">
+                 
+            </div>
+            <div class="tagline">
+                {{ site.tagline }}
+            </div>
+            <div class="sub-tagline">
+                Tailoring creative financing solutions for leading international clients.                
+            </div>
         </div>
-        <div class="text">
-            <p>{{ page.about-us.text }}</p>
-        </div>
-        <div class="read-more">
-            <a href="{{ page.about-us.page }}" class="btn btn-primary">Read more</a>
-        </div>
+        <
     </div>
-</section>
+    
+    <section class="section about-us">
+        <div class="container ">
+            <div class="title">
+                <h2>{{ page.about-us.title }}</h2>
+            </div>
+            <div class="text">
+                <p>{{ page.about-us.text }}</p>
+            </div>
+            <div class="read-more">
+                <a href="{{ page.about-us.page }}" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </section>
 
-<section class="section services">
-    <div class="container">
-        <div class="title">
-            <h2>{{ page.services.title }}</h2>
+    <section class="section services">
+        <div class="container">
+            <div class="title">
+                <h2>{{ page.services.title }}</h2>
+            </div>
+            <div class="text">
+                <p>{{ page.services.text }}</p>
+            </div>
+            <div class="read-more">
+                <a href="{{ page.services.page }}" class="btn btn-primary">Read more</a>
+            </div>
         </div>
-        <div class="text">
-            <p>{{ page.services.text }}</p>
-        </div>
-        <div class="read-more">
-            <a href="{{ page.services.page }}" class="btn btn-primary">Read more</a>
-        </div>
-    </div>
-</section>
+    </section>
 
-<section class="section recent-transactions">
-    <div class="container">
-        <div class="title">
-            <h2>{{ page.recent-transactions.title }}</h2>
-        </div>
-        <div class="text">
-            <p>{{ page.recent-transactions.text }}</p>
-        </div>
-        <div class="transactions">
-            {% for transaction in page.recent-transactions %}
-                <div class="transaction">
-                    <p>{{transaction.year}}</p>
-                    <p>{{transaction.status}}</p>
-                </div>
-            {% endfor %}
-        </div>
-        <div class="read-more">
-            <a href="{{ page.transaction.page }}" class="btn btn-primary">Read more</a>
-        </div>
-    </div>
-</section>
-
-<section class="section overview">
-    <div class="container">
-        <div class="title">
-            <h2>{{ page.overview.title }}</h2>
-        </div>
-        <div class="text">
-            <p>{{ page.overview.text }}</p>
-        </div>
-        <div class="advisories">
-            {% for advisory in page.overview.advisories %}
-                <div class="advisory">
-                    <div class="image">
-                        <img src="{{advisory.image}}"/>
+    <section class="section recent-transactions">
+        <div class="container">
+            <div class="title">
+                <h2>{{ page.recent-transactions.title }}</h2>
+            </div>
+            <div class="text">
+                <p>{{ page.recent-transactions.text }}</p>
+            </div>
+            <div class="transactions">
+                {% for transaction in page.recent-transactions %}
+                    <div class="transaction">
+                        <p>{{transaction.year}}</p>
+                        <p>{{transaction.status}}</p>
                     </div>
-                    <div class="title">
-                        <h3>{{advisory.title}}</h3>
+                {% endfor %}
+            </div>
+            <div class="read-more">
+                <a href="{{ page.transaction.page }}" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section overview">
+        <div class="container">
+            <div class="title">
+                <h2>{{ page.overview.title }}</h2>
+            </div>
+            <div class="text">
+                <p>{{ page.overview.text }}</p>
+            </div>
+            <div class="advisories">
+                {% for advisory in page.overview.advisories %}
+                    <div class="advisory">
+                        <div class="image">
+                            <img src="{{advisory.image}}"/>
+                        </div>
+                        <div class="title">
+                            <h3>{{advisory.title}}</h3>
+                        </div>
                     </div>
-                </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
+            <div class="read-more">
+                <a href="{{ page.advisory.page }}" class="btn btn-primary">Read more</a>
+            </div>
         </div>
-        <div class="read-more">
-            <a href="{{ page.advisory.page }}" class="btn btn-primary">Read more</a>
-        </div>
-    </div>
-</section>
+    </section>
+</div>
