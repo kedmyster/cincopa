@@ -25,10 +25,10 @@ exclude:
 - Gemfile
 - Gemfile.lock
 tagline: Global Investment Boutique
-Phone: "+972-3710-4000"
-Address: |-
+phone: "+972-3710-4000"
+address: |-
   Millennium Tower
   17 HaArba'a Street
   Tel Aviv 64739
   Israel
-Fax: "+972-3710-4027"
+fax: "+972-3710-4027"
