@@ -1,5 +1,5 @@
 ---
-title: Global Investment Boutique
+title: Cincopa
 timezone: UTC
 collections:
   posts:
@@ -24,3 +24,11 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+tagline: Global Investment Boutique
+Phone: "+972-3710-4000"
+Address: |-
+  Millennium Tower
+  17 HaArba'a Street
+  Tel Aviv 64739
+  Israel
+Fax: "+972-3710-4027"
