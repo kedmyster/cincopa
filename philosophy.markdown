@@ -36,4 +36,3 @@ bullets:
 layout: philosophy
 ---
 
-lolza
