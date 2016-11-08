@@ -45,4 +45,3 @@ overview:
 layout: home
 ---
 
-Home
