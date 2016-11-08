@@ -1,0 +1,12 @@
+header#header {}
+
+section#content {}
+
+section#contact {}
+
+footer#footer {}
+
+.container {
+    position: relative;
+    @include outer-container;
+}

@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<section class="section">
+    <div class="about-us">
+        <div class="title">
+            <h2>{{ page.about-us.title }}</h2>
+        </div>
+        <div class="text">
+            <p>{{ page.about-us.text }}</p>
+        </div>
+        <div class="read-more">
+            <a href="{{ page.about-us.page }}" class="btn btn-primary">Read more</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="corporate-advisory">
+        <div class="title">
+            <h2>{{ page.corporate-advisory.title }}</h2>
+        </div>
+        <div class="text">
+            <p>{{ page.corporate-advisory.text }}</p>
+        </div>
+        <div class="read-more">
+            <a href="{{ page.corporate-advisory.page }}" class="btn btn-primary">Read more</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="recent-transactions">
+        <div class="title">
+            <h2>{{ page.recent-transactions.title }}</h2>
+        </div>
+        <div class="text">
+            <p>{{ page.recent-transactions.text }}</p>
+        </div>
+        <div class="transactions">
+            {% for transaction in page.recent-transactions %}
+                <div class="transaction">
+                    <p>{{transaction.year}}</p>
+                    <p>{{transaction.status}}</p>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="read-more">
+            <a href="{{ page.transaction.page }}" class="btn btn-primary">Read more</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="overview">
+        <div class="title">
+            <h2>{{ page.overview.title }}</h2>
+        </div>
+        <div class="text">
+            <p>{{ page.overview.text }}</p>
+        </div>
+        <div class="advisories">
+            {% for advisory in page.overview.advisories %}
+                <div class="advisory">
+                    <div class="image">
+                        <img src="{{advisory.image}}"/>
+                    </div>
+                    <div class="title">
+                        <h3>{{advisory.title}}</h3>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="read-more">
+            <a href="{{ page.advisory.page }}" class="btn btn-primary">Read more</a>
+        </div>
+    </div>
+</section>
