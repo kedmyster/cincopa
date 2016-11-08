@@ -1,0 +1,53 @@
+---
+layout: page
+---
+
+<section id="contact" class="section section-contact advanced">
+    <div class="info">
+        <div class="logo">CINCOPA</div>
+        <div class="address">
+          Millennium Tower 17 HaArba'a Street Tel Aviv 64739 Israel  
+        </div>
+        <div class="phone">+972-3710-4000</div>
+        <div class="fax">+972-3710-4027</div>
+        <div class="email">{{ site.email }}</div>
+    </div>
+    <div class="form">
+      <form method="post" action="#">
+        <div class="field name">
+          <input type="text" id="name" name="name" placeholder="Full Name *"/>
+        </div>
+
+        <div class="field email">
+          <input type="email" id="email" name="email" placeholder="Email *"/>
+        </div>
+
+        <div class="field phone">
+          <input type="text" id="phone" name="phone" placeholder="Phone *"/>
+        </div>
+
+        <div class="field company">
+          <input type="text" id="company" name="company" placeholder="Company *"/>
+        </div>
+
+        <div class="field message">
+          <textarea name="text" id="message" placeholder="Massage"></textarea>
+        </div>
+      
+        <div class="cta">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="indicator-message">
+      <div class="send-success">
+        ההודעה נשלחה בהצלחה
+      </div>
+
+      <div class="send-error">
+        ההודעה לא נשלחה
+      </div>
+    </div>
+
+  </section>

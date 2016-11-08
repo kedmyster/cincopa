@@ -1,0 +1,24 @@
+---
+layout: page
+---
+<section class="section teammates">
+    <div class="container">
+        {% for teammate in page.team-mates %}
+            <div class="teammate">
+                <div class="image">
+                    <img src="{{teammate.image}}"/>
+                </div>
+                <div class="name">
+                    <h2>{{teammate.name}}</h2>
+                </div>
+                <div class="title">
+                    <h3>{{teammate.title}}</h3>
+                </div>
+                <div class="text">
+                    <p>{{teammate.text}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+

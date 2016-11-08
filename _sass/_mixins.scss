@@ -1,0 +1,23 @@
+@mixin vertical-align-container($position: relative) {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin omega-reset($nth: 1) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
+
+@mixin omega-reset-rtl($nth: 1) {
+  &:nth-child(#{$nth}) { margin-left: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
