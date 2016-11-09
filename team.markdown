@@ -3,7 +3,7 @@ title: Team
 date: 2016-11-02 11:28:00 Z
 permalink: "/team/"
 team-mates:
-- image: "/img/team/team-nir.jpg"
+- image: "/img/team/icon-nir.jpg"
   name: Nir Epstein
   title: Founder and Managing Director
   text: "Mr. Epstein is the founder and Managing Director of Epstein Capital. Mr.
