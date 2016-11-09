@@ -31,7 +31,7 @@ team-mates:
     Fontainebleau, France and an LL.B. magna cum laude from Tel-Aviv University Law
     School (Mr. Epstein is a member of the Israel Bar). Mr. Epstein is fluent in Hebrew,
     English and Spanish."
-- image: /img/team/team-amir.jpg
+- image: "/img/team/team-amir.jpg"
   name: Amit Tchetchik
   title: Managing Director
   text: |-
