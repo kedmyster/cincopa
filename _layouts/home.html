@@ -16,11 +16,10 @@ layout: default
                 Tailoring creative financing solutions for leading international clients.                
             </div>
         </div>
-        <
     </div>
     
     <section class="section about-us">
-        <div class="container ">
+        <div class="container">
             <div class="title">
                 <h2>{{ page.about-us.title }}</h2>
             </div>
@@ -40,6 +39,18 @@ layout: default
             </div>
             <div class="text">
                 <p>{{ page.services.text }}</p>
+            </div>
+            <div class="our-services">
+               {% for service in page.services.our-services %}
+                <div class="service">
+                    <div class="image">
+                       <img src="{{service.image}}"/>
+                    </div>
+                    <div class="title">
+                        <p>{{service.title}}</p>
+                    </div>
+                </div>
+                {% endfor %} 
             </div>
             <div class="read-more">
                 <a href="{{ page.services.page }}" class="btn btn-primary">Read more</a>
