@@ -10,18 +10,18 @@ about-us:
   page: 
 services:
   title: Services
-  text: 'Intense focus on providing not only top.'
+  text: Intense focus on providing not only top.
   our-services:
-  - image: /img/home/home-handshake.png 
-    title: 'Private Equity Advisory'
-  - image: /img/home/home-flowers.png
-    title: 'Debt restructuring advisory'
-  - image: /img/home/home-moneyhand.png
-    title: 'Capital markets advisory'
-  - image: /img/home/home-grapherror.png
-    title: 'M&A advisory'
-  - image: /img/home/home-meeting.png
-    title: 'Management & board advisory' 
+  - image: "/img/home/home-handshake.png"
+    title: Private Equity Advisory
+  - image: "/img/home/home-flowers.png"
+    title: Debt restructuring advisory
+  - image: "/img/home/home-moneyhand.png"
+    title: Capital markets advisory
+  - image: "/img/home/home-grapherror.png"
+    title: M&A advisory
+  - image: "/img/home/home-meeting.png"
+    title: Management & board advisory
   page: 
 recent-transactions:
   title: Recent transactions
