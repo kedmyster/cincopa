@@ -1,11 +1,11 @@
 ---
 title: Philosophy
-tagline: We were founded on a strong belief in a set of business principles that guide
-    us in our work. These principles allow us to be free of the potential conflicts
-    of interest created within large, multi-product financial institutions.
 date: 2016-11-02 11:28:00 Z
 permalink: "/philosophy/"
-our-philosophy:
+tagline: We were founded on a strong belief in a set of business principles that guide
+  us in our work. These principles allow us to be free of the potential conflicts
+  of interest created within large, multi-product financial institutions.
+our-philosophy: 
 bullets:
 - title: Integrity
   tagline: Objective Advice with a Long-Term Perspective
