@@ -31,8 +31,8 @@ team-mates:
     Fontainebleau, France and an LL.B. magna cum laude from Tel-Aviv University Law
     School (Mr. Epstein is a member of the Israel Bar). Mr. Epstein is fluent in Hebrew,
     English and Spanish."
-- image: "/img/team/team-amir.jpg"
-  name: Amit Tchetchik
+- image: "/img/team/icon-amir.jpg"
+  name: Amir Tchetchik
   title: Managing Director
   text: |-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum diam arcu, eget malesuada diam scelerisque quis. Nam vehicula justo hendrerit, posuere tellus ut, ornare est. Mauris vulputate mi porta libero rhoncus congue. Etiam nec nibh in mauris malesuada fermentum. Nam tincidunt porta turpis, in vehicula nunc consectetur id. Phasellus maximus nulla et libero faucibus, in faucibus odio tempus. Aliquam erat volutpat. Vestibulum eleifend eu risus vel placerat. Maecenas ex nulla, tempus quis dapibus nec, convallis eget metus. Donec blandit aliquet metus imperdiet euismod. Curabitur odio dolor, semper sit amet tempus in, posuere ac nulla. In et neque vitae neque porta venenatis. Aliquam ac fringilla arcu. Pellentesque ac erat luctus, accumsan ex id, vehicula diam. Mauris eu dolor arcu. Sed at neque ultrices, molestie est id, aliquam mauris.
