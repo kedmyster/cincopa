@@ -4,14 +4,8 @@ layout: page
 
 <section class="section services">
     <div class="container">
-        <div class="title">
-            <h2>{{ page.services.title }}</h2>
-        </div>
-        <div class="text">
-            <p>{{ page.services.text }}</p>
-        </div>
         <div class="our-services">
-            {% for service in page.services.our-services %}
+            {% for service in page.our-services %}
             <div class="service">
                 <div class="image">
                     <img src="{{service.image}}"/>
@@ -20,7 +14,7 @@ layout: page
                     <p>{{service.title}}</p>
                 </div>
                 <div class="text">
-                    <p>{{service.text}}</p>
+                    <p>{{service.description}}</p>
                 </div>
             </div>
             {% endfor %} 

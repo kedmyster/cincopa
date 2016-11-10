@@ -2,28 +2,26 @@
 layout: page
 ---
 
-<div class="page-philosophy">
-    <section class="section philosophy">
-        <div class="container">
-            <div class="bullets">
-                {% for bullet in page.bullets %}
-                    <div class="bullet">
-                        <div class="image">
-                            <img src="{{bullet.image}}"/>
-                        </div>
-                        <div class="title">
-                            <h2>{{bullet.title}}</h2>
-                        </div>
-                        <div class="tagline">
-                            <h3>{{bullet.tagline}}</h3>
-                        </div>
-                        <div class="text"> 
-                            <p>{{bullet.text}}</p>
-                        </div>
+<section class="section philosophy">
+    <div class="container">
+        <div class="bullets">
+            {% for bullet in page.bullets %}
+                <div class="bullet">
+                    <div class="image">
+                        <img src="{{bullet.image}}"/>
                     </div>
-                {% endfor %}  
-            </div>
+                    <div class="title">
+                        <h2>{{bullet.title}}</h2>
+                    </div>
+                    <div class="tagline">
+                        <h3>{{bullet.tagline}}</h3>
+                    </div>
+                    <div class="text"> 
+                        <p>{{bullet.text}}</p>
+                    </div>
+                </div>
+            {% endfor %}  
         </div>
-    </section>
-</div>
+    </div>
+</section>
 

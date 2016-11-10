@@ -22,8 +22,8 @@ p {
 }
 
 a {
-  color: $base-font-color;
-  text-decoration: none;
+  color: $color-primary;
+  text-decoration: underline;
   transition: color $base-duration $base-timing;
 
   &:active,
