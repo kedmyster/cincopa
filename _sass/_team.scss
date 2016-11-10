@@ -10,6 +10,7 @@
         .image{
             img{
                 max-height: 128px;
+                border-radius: 100px;
             }
         }
         .name {
@@ -45,10 +46,7 @@
             p {
                 font-family: 'Playfair Display', serif;
                 margin-bottom: 10px;
-                @include media ($tablet) {
-                    text-align: justify;
-                }
-                @include media ($desktop) {}
+                text-align: justify;
             }
         }
         .icon-image {

@@ -1,3 +1,20 @@
 .page-about {
     background-image: url(/img/about/about-background.jpg);
+    font-family: 'Playfair Display', serif;
+
+    .section.about{
+        max-width: 650px;
+        margin: auto;
+
+        .page-content{
+            @include media ($xldesktop){
+                /*margin-bottom: 200px;*/
+            }
+            p{
+                @include media ($tablet){
+                    font-size: 19px;
+                }
+            }
+        }
+    }
 }

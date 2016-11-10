@@ -1,3 +1,37 @@
 .page-philosophy {
-    
+    background-image: url(/img/about/about-background.jpg);
+    font-family: 'Playfair Display', serif;
+    .bullet {
+        text-align: center;
+        @include media ($desktop) {
+            @include span-columns(6);
+            @include omega(2n);
+            text-align: left;
+        }
+        .title{
+            text-transform: uppercase;
+            color: $blue;
+            font-size: 20px;
+            @include media ($desktop){
+                font-size: 24px;
+                
+            }
+            h2{
+                font-weight: 400;
+                /*font-family: 'Montserrat', sans-serif;*/
+            }
+        }
+        .tagline{
+            
+            h3{
+                font-family: 'Playfair Display', serif;
+                font-weight: 300;
+            }
+        }
+        .text {
+            p {
+                text-align: justify;
+            }
+        }
+    }
 }
