@@ -14,12 +14,33 @@ our-services:
     exit planning and execution"
 - image: "/img/home/home-flowers.png"
   title: Debt restructuring advisory
+  description: "* Financial restructuring services, strategic advice \x03& related
+    investment banking services\n* Lead negotiations with equity holders & debt holders\n*
+    Restructuring of other corporate liabilities"
 - image: "/img/home/home-moneyhand.png"
   title: Capital markets advisory
+  description: |-
+    * Public / Private Transactions Advisory
+    * Capital structure advisory
+    * Unbiased view based on our extensive experience with US, European & Israeli exchanges
 - image: "/img/home/home-grapherror.png"
   title: M&A advisory
+  description: |-
+    * Buy Side M&A
+    * Sell Side M&A
+    * Divestitures
+    * Restructuring & Bankruptcy transactions
+    * Provide valuation analyses & strategic alternatives
+    * Advise on the timing, structure and assist
+    in negotiating & closing
 - image: "/img/home/home-meeting.png"
   title: Management & board advisory
+  description: |-
+    * Provide advice to executive management and Board
+      members on issues relating to shareholder value &
+      corporate performance
+
+    * Work to ensure that Boards are giving, or receiving, fair value
 page: 
 layout: services
 ---
