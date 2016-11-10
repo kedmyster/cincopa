@@ -9,6 +9,9 @@ tagline: Intense focus on providing not only top - tier investment banking capab
 our-services:
 - image: "/img/home/home-handshake.png"
   title: Private Equity Advisory
+  description: "* Provide unbiased advice & execution expertise\x03on private equity
+    transactions\n* Finance sourcing, deal planning and deal strategy\n* Deal structuring,
+    exit planning and execution"
 - image: "/img/home/home-flowers.png"
   title: Debt restructuring advisory
 - image: "/img/home/home-moneyhand.png"
