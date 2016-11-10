@@ -1,4 +1,16 @@
-header.site-header {}
+header.site-header {
+    a {
+        color: $base-font-color;
+        text-decoration: none;
+        transition: color $base-duration $base-timing;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color: shade($color-primary, 25%);
+        }
+    }
+}
 
 .page-content {
     .page-title {
