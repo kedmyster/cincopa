@@ -14,7 +14,7 @@ layout: page
                     <p>{{service.title}}</p>
                 </div>
                 <div class="text">
-                    <p>{{service.description}}</p>
+                    <p>{{service.description | markdownify }}</p>
                 </div>
             </div>
             {% endfor %} 

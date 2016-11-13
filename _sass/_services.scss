@@ -1,3 +1,58 @@
 .page-services {
-    
+    .page {
+        background-image: url("/img/services/service-background.jpg");
+        .service {
+            margin-bottom: 10px;
+            text-align: center;
+            @include media ($tablet) {
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            @include media ($desktop) {
+                @include span-columns(6);
+                @include omega(2n);
+            }
+            .title {
+                text-transform: uppercase;
+                color: $blue;
+                font-size: 16px;
+                @include media ($tablet) {
+                    display: inline-block;
+                }
+                @include media ($desktop) {
+                    font-size: 22px;
+                }
+                p {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                    @include media ($tablet) {
+                        font-size: 19px;
+                    }
+                }
+            }
+            .text {
+                font-family: 'Playfair Display', serif;
+                text-align: left;
+                margin-bottom: 10px;
+                line-height: 1.667;
+                li {
+                    background-image: url("/img/services/service-bullet.png");
+                    background-repeat: no-repeat;
+                    background-position: left top 11px;
+                    padding-left: 20px;
+                }
+            }
+            .image {
+                @include media ($tablet) {
+                    display: inline-block;
+                }
+                img {
+                    @include media ($tablet) {
+                        vertical-align: middle;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
 }
