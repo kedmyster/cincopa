@@ -1,6 +1,8 @@
 .page-philosophy {
-    background-image: url(/img/about/about-background.jpg);
     font-family: 'Playfair Display', serif;
+    .page {
+        background-image: url(/img/about/about-background.jpg);
+    }
     .bullet {
         text-align: center;
         @include media ($desktop) {
@@ -8,22 +10,20 @@
             @include omega(2n);
             text-align: left;
         }
-        .title{
+        .title {
             text-transform: uppercase;
             color: $blue;
             font-size: 20px;
-            @include media ($desktop){
+            @include media ($desktop) {
                 font-size: 24px;
-                
             }
-            h2{
+            h2 {
                 font-weight: 400;
                 /*font-family: 'Montserrat', sans-serif;*/
             }
         }
-        .tagline{
-            
-            h3{
+        .tagline {
+            h3 {
                 font-family: 'Playfair Display', serif;
                 font-weight: 300;
             }
