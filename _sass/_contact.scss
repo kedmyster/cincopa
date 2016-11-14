@@ -1,3 +1,70 @@
 .page-contact {
-    
+    .page{
+        background-image: url(/img/contact/contact-background.jpg);
+    }
+    .info {
+        text-align: left;
+        @include media ($desktop){
+            @include span-columns(6);
+            
+        }
+        .logo {
+            text-transform: uppercase;
+            color: $blue;
+            font-size: 22px;
+            font-weight: 500;
+            @include media ($tablet){
+                font-size: 24px;
+            }
+        }
+        .address {
+            font-size: 16px;
+            margin-bottom: 20px;
+            @include media ($desktop){
+                margin-bottom: 70px;
+            }
+        }
+        .phone {
+            background-repeat: no-repeat;
+            background-image: url("/img/contact/contact-phone.png");
+            padding-left: 30px;
+            background-position: top 2px left;
+            margin-bottom: 10px;
+        }
+        .fax {
+            background-repeat: no-repeat;
+            background-image: url("/img/contact/contact-fax.png");
+            padding-left: 30px;
+            background-position: top 2px left;
+            margin-bottom: 10px;
+        }
+        .email {
+            background-repeat: no-repeat;
+            background-image: url("/img/contact/contact-mail.png");
+            padding-left: 30px;
+            background-position: top 6px left;
+            margin-bottom: 10px;
+        }
+    }
+    .contact-form {
+        @include media ($desktop){
+            @include span-columns(6);
+            @include omega(2n);
+        }
+        .field {
+            width: 100%;
+            textarea#message {
+                height: 100px;
+                padding-top: 15px;
+            }
+        }
+        .cta-button{
+            button{
+                width: 100%;
+            }
+        }
+    }
+    .indicator-message{
+        display: none;
+    }
 }
