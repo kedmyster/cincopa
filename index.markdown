@@ -27,7 +27,7 @@ recent-transactions:
   title: Recent transactions
   text: CINCOPA has extensive experience in orchestrating all types of M&A financials
     and structured transactions
-  trnasactions:
+  transactions:
   - year: 2014
     status: "$3.15 BN"
   - year: 2015

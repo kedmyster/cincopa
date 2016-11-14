@@ -1,17 +1,20 @@
 ---
-layout: default
+layout: page
 ---
 
 <section class="section hero">
     <div class="container">
         <div class="logo">
-                
+                <img src="/img/home/home-logo.png"/>
         </div>
-        <div class="tagline">
-            {{ site.tagline }}
+        <div class="page-title">
+            <h1>{{ site.tagline }}</h1>
         </div>
-        <div class="sub-tagline">
-            Tailoring creative financing solutions for leading international clients.                
+        <div class="page-tagline">
+            <p>Tailoring creative financing solutions for leading international clients.</p>                
+        </div>
+        <div class="page-scroll">
+            <p>Scroll down</p>
         </div>
     </div>
 </section>
@@ -65,7 +68,7 @@ layout: default
             <p>{{ page.recent-transactions.text }}</p>
         </div>
         <div class="transactions">
-            {% for transaction in page.recent-transactions %}
+            {% for transaction in page.recent-transactions.transactions %}
                 <div class="transaction">
                     <p>{{transaction.year}}</p>
                     <p>{{transaction.status}}</p>
