@@ -1,26 +1,25 @@
 .page-contact {
-    .page{
-        background-image: url(/img/contact/contact-background.jpg);
+    .page {
+        background-image: url(/img/contact/contact-background.png);
     }
     .info {
         text-align: left;
-        @include media ($desktop){
+        @include media ($desktop) {
             @include span-columns(6);
-            
         }
         .logo {
             text-transform: uppercase;
             color: $blue;
             font-size: 22px;
             font-weight: 500;
-            @include media ($tablet){
+            @include media ($tablet) {
                 font-size: 24px;
             }
         }
         .address {
             font-size: 16px;
             margin-bottom: 20px;
-            @include media ($desktop){
+            @include media ($desktop) {
                 margin-bottom: 70px;
             }
         }
@@ -47,7 +46,7 @@
         }
     }
     .contact-form {
-        @include media ($desktop){
+        @include media ($desktop) {
             @include span-columns(6);
             @include omega(2n);
         }
@@ -58,13 +57,21 @@
                 padding-top: 15px;
             }
         }
-        .cta-button{
-            button{
+        .cta-button {
+            button {
                 width: 100%;
+                background-image: url("/img/contact/contact-buttarrow.png");
+                background-repeat: no-repeat;
+                background-position: right 25px bottom 13px;
+                @include media ($desktop) {
+                    height: 60px;
+                    font-size: 20px;
+                    background-position: right 25px bottom 25px;
+                }
             }
         }
     }
-    .indicator-message{
+    .indicator-message {
         display: none;
     }
 }
