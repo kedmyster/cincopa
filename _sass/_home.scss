@@ -6,7 +6,7 @@
             text-transform: uppercase;
             letter-spacing: 5px;
             font-size: 14px;
-            @include media ($tablet){
+            @include media ($tablet) {
                 font-size: 19px;
             }
         }
@@ -22,9 +22,17 @@
         }
         .section {
             padding: 20px;
+            @include media ($desktop) {
+                padding: 40px;
+            }
         }
         .section.hero {
             text-align: center;
+            .logo {
+                @include media($desktop) {
+                    margin-top: 130px;
+                }
+            }
             .page-title,
             .page-tagline {
                 display: unset;
@@ -34,13 +42,20 @@
                 margin-bottom: 20px;
                 h1 {
                     margin-top: 50px;
+                    @include media ($desktop) {
+                        margin-top: 100px;
+                    }
                 }
             }
             .page-tagline {
                 p {
                     margin-bottom: 50px;
+                    @include media ($desktop) {
+                        margin-bottom: 550px;
+                        font-size: 18px;
+                    }
                 }
-            } 
+            }
             .page-scroll {
                 display: none;
                 @include media ($desktop) {
@@ -51,15 +66,31 @@
                     font-style: italic;
                     font-size: 14px;
                 }
+                img {
+                    background-color: rgba(#101010, 0.4);
+                    border-radius: 100%;
+                    padding: 15px;
+                }
             }
         }
         .section.about-us {
             background-color: $blue;
             text-align: center;
+            .title {
+                h2 {
+                    @include media ($desktop) {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
             .text {
                 p {
                     font-size: 14px;
                     margin-bottom: 20px;
+                    @include media ($desktop) {
+                        font-size: 20px;
+                        margin-bottom: 50px;
+                    }
                 }
             }
             .read-more {
@@ -74,32 +105,46 @@
             text-align: center;
             background-color: #000000;
             .our-services {
-                max-width: 750px;
+                max-width: 550px;
                 margin-right: auto;
                 margin-left: auto;
                 @include clearfix;
                 .service {
                     margin-bottom: 40px;
-                    &:nth-child(1),
-                    &:nth-child(2),
-                    &:nth-child(4),
-                    &:nth-child(5) {
+                    &:nth-child(1) {
                         @include media ($desktop) {
-                            @include span-columns(2.4);
-                            @include shift(2.4);
-                            text-align: center;
+                            @include span-columns(4);
+                        }
+                    }
+                    &:nth-child(2) {
+                        @include media ($desktop) {
+                            @include span-columns(4);
+                            @include shift(4);
+                            @include omega;
                         }
                     }
                     &:nth-child(3) {
                         @include media ($desktop) {
                             @include span-columns(12);
+                            @include omega;
                             text-align: center;
+                        }
+                    }
+                    &:nth-child(4) {
+                        @include media ($desktop) {
+                            @include span-columns(4);
+                        }
+                    }
+                    &:nth-child(5) {
+                        @include media ($desktop) {
+                            @include span-columns(4);
+                            @include shift(4);
+                            @include omega;
                         }
                     }
                     .image {
                         margin-bottom: 10px;
-
-                        img{
+                        img {
                             width: 100.9px;
                             height: 100.9px;
                         }
@@ -125,30 +170,52 @@
     }
     .section.recent-transactions {
         text-align: center;
-        .title {
-            color: $blue;
+        @include media($desktop) {
+            padding: 0;
+            padding-top: 230px;
+            padding-bottom: 230px;
         }
-        .transaction {
-            background-color: $blue;
-            border-radius: 100%;
-            max-width: 100px;
-            height: 100px;
-            margin-bottom: 20px;
-            margin: auto;
-            margin-bottom: 20px;
-            padding-top: 25px;
-            p {
-                text-transform: uppercase;
-                font-family: 'Montserrat', sans-serif;
-                font-weight: 500;
-                margin: 0;
-            }
-        }
-        .read-more {
-            a {
+        .container {
+            @include clearfix;
+            .title {
                 color: $blue;
-                font-style: italic;
-                font-size: 14px;
+            }
+            .transactions {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1200px;
+                font-size: 0;
+                .transaction {
+                    background-color: $blue;
+                    border-radius: 100%;
+                    width: 100px;
+                    height: 100px;
+                    margin-bottom: 20px;
+                    margin: auto;
+                    margin-bottom: 20px;
+                    padding-top: 25px;
+                    @include media ($desktop) {
+                        display: inline-block;
+                        margin-left: 50px;
+                    }
+                    p {
+                        text-transform: uppercase;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 500;
+                        margin: 0;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .read-more {
+                a {
+                    color: $blue;
+                    font-style: italic;
+                    font-size: 14px;
+                    @include media ($desktop) {
+                        margin-left: 50px;
+                    }
+                }
             }
         }
     }
