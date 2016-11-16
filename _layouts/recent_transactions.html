@@ -16,10 +16,11 @@ layout: page
                     <h2>{{transaction.title}}</h2>
                 </div>
                 <div class="images">
-                    {% for image in page.images %}
-                        <img src="{{images.image}}"/>
+                    {% for image in transaction.images %}
+                        <img src="{{image}}"/>
                     {% endfor %}
                 </div>
+
                 <div class="text">
                     <p>{{transaction.text}}</p>
                 </div>

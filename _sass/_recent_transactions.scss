@@ -1,3 +1,82 @@
-.page-recent_transactions {
-    
+.page-content {
+    .page-title {
+        margin-bottom: 150px;
+    }
+}
+
+.section.transactions {
+    text-align: center;
+    p {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .container {
+        @include clearfix();
+        .transaction {
+            background-color: #000000;
+            border: 2px solid #ffffff;
+            margin-bottom: 100px;
+            position: relative;
+            @include media ($desktop) {
+                @include span-columns(4);
+                @include omega(3n);
+                margin-bottom: 80px;
+            }
+            &:before {
+                content: "";
+                width: 28px;
+                height: 28px;
+                background: $blue;
+                position: absolute;
+                border-radius: 100%;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+            .title {
+                max-width: 220px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .year {
+                position: absolute;
+                top: -15%;
+                transform: translateX(-50%) translateY(-50%);
+                left: 50%;
+                p {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 30px;
+                }
+            }
+            .status {
+                p {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    color: $blue;
+                    padding-top: 40px;
+                    margin-bottom: 0;
+                }
+            }
+            .images,
+            .text {
+                background-color: $white;
+                color: #000000;
+                p {
+                    margin: 0;
+                }
+            }
+            .images {
+                padding-top: 20px;
+            }
+            .text {
+                background-image: url(/img/transactions/trans-line.png);
+                background-repeat: no-repeat;
+                background-position: top 20px center;
+                padding-top: 20px;
+                p {
+                    padding: 20px;
+                    font-family: 'Playfair Display', serif;
+                }
+            }
+        }
+    }
 }
