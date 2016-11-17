@@ -15,15 +15,15 @@ transactions:
   status: Sold
   title: T4U / Fishman Group to Blackstone
   images:
-  - 
-  - 
+  - "/img/transactions/trans-fishman.png"
+  - "/img/transactions/trans-blackstone.png"
   text: Financial Advisor to the fishman group
 - year: 2016
   status: Sold
   title: Har-Tuv Plant to Someone
   images:
-  - 
-  - 
+  - "/img/transactions/trans-cial.png"
+  - "/img/transactions/trans-nesher.png"
   text: 'Financial Advisor to Nesher and Clal Industries '
 - year: 2012
   status: Sold
