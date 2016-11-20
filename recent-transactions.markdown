@@ -28,47 +28,46 @@ transactions:
 - year: 2012
   status: Sold
   title: KAPLAM to KIDUM
-  images:
+  images: 
   text: Local Business
 - year: 2013
   status: Has Acquired
   title: Mediterranean car agency itd to Subaru
-  images:
+  images: 
   text: Local Business
 - year: 2014
   status: "€282.5 m"
   title: J.E.C to French Subsidiary
-  images:
+  images: 
   text: Local Business
 - year: 2010
   status: "₪520 m"
   title: GOLDEN PAGES
-  images:
+  images: 
   text: Debt Restructuring
 - year: 2011
   status: Has Acquired
   title: Mediterranean car agency ltd to AUTOITALIA GROUP
-  images:
+  images: 
   text: Local Business
 - year: 2012
   status: Has acquired
   title: Mediterranean car agency ltd to IVECO
-  images:
+  images: 
   text: Local Business
 - year: 2008
   status: Sold
   title: KAPLAM to KIDUM
-  images:
+  images: 
   text: Local Business
 - year: 2009
   status: Has acquired
   title: Mediterranean car agency ltd to Subaru
-  images:
+  images: 
   text: Local Business
 - year: 2009
-  status: ₪520 m
-  title: KAMADA - High Quality Pharmaeuticals 
-
+  status: "₪520 m"
+  title: KAMADA - High Quality Pharmaeuticals
   text: Private investement in public equity
 layout: recent_transactions
 ---
