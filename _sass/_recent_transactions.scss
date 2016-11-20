@@ -1,5 +1,5 @@
-.page-content {
-    /*background-image: url(/img/transactions/trans-background.png);*/
+.page-recent-transactions{
+    .page-content {
     .page-title {
         margin-bottom: 150px;
     }
@@ -17,12 +17,11 @@
         .transaction {
             background-color: #FFFFFF;
             border: 2px solid #ffffff;
-            margin-bottom: 100px;
+            margin-bottom: 150px;
             position: relative;
             @include media ($desktop) {
                 @include span-columns(4);
                 @include omega(3n);
-                margin-bottom: 80px;
             }
             &:before {
                 content: "";
@@ -72,7 +71,7 @@
             }
             .images {
                 padding-top: 20px;
-                padding-bottom: 20px;
+                padding-bottom: 30px;
                 border-bottom: 2px solid rgba(220, 220, 220, 0.7);
                 max-width: 220px;
                 margin-left: auto;
@@ -89,7 +88,7 @@
                 /*background-image: url(/img/transactions/trans-line.png);
                 background-repeat: no-repeat;
                 background-position: top 20px center;*/
-                padding-top: 20px;
+                
                 p {
                     padding: 20px;
                     font-family: 'Playfair Display', serif;
@@ -97,4 +96,7 @@
             }
         }
     }
+}
+
+
 }
