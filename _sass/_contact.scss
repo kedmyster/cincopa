@@ -1,5 +1,6 @@
 .page-contact {
     background-image: url(/img/contact/contact-background.png);
+    background-attachment: fixed;
     .info {
         text-align: left;
         @include media ($desktop) {

@@ -1,20 +1,33 @@
 .page-team {
     .page {
         background-image: url("/img/team/team-background.png");
+        background-attachment: fixed;
     }
     .teammate {
         text-align: center;
         margin-bottom: 50px;
+        @include clearfix();
         @include media ($desktop) {
-            @include span-columns(6);
+            /*@include span-columns(6);*/
+            text-align: left;
         }
         .image {
-            img {
-                max-height: 128px;
-                border-radius: 100px;
+            @include media($desktop) {
+                @include span-columns(3);
+            }
+        }
+        .name,
+        .icon,
+        .title,
+        .text {
+            @include media($desktop) {
+                text-align: left;
+                @include span-columns(9);
+                @include omega();
             }
         }
         .name {
+            display: inline-block;
             h2 {
                 font-family: 'Montserrat', sans-serif;
                 text-transform: uppercase;
@@ -26,7 +39,7 @@
                     margin-top: 20px;
                 }
                 @include media ($desktop) {
-                    margin-top: 30px;
+                    margin: 0;
                 }
             }
         }
@@ -49,11 +62,25 @@
                 margin-bottom: 10px;
                 text-align: justify;
             }
+            .read-more {
+                @include media ($desktop) {
+                    @include span-columns(9);
+                    @include shift(3);
+                }
+                a {
+                    color: $blue;
+                    font-style: italic;
+                    font-size: 14px;
+                }
+            }
         }
         .icon-image {
-            margin-top: 20px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 20px;
             @include media ($tablet) {}
             @include media ($desktop) {
+                margin-left: 0;
                 text-align: left;
             }
         }

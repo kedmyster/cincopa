@@ -1,29 +1,30 @@
----
-layout: page
+--- 
+layout: page 
 ---
 
-    <section class="section teammates">
-        <div class="container">
-            {% for teammate in page.team-mates %}
-                <div class="teammate">
-                    <div class="image">
-                        <img src="{{teammate.image}}"/>
-                    </div>
-                    <div class="name">
-                        <h2>{{teammate.name}}</h2>
-                    </div>
-                    <div class="title">
-                        <h3>{{teammate.title}}</h3>
-                    </div>
-                    <div class="text">
-                        <p>{{teammate.text}}</p>
-                    </div>
-                    <div class="icon-image">
-                        <img src="/img/team/team-in.png" />
-                    </div>
+<section class="section teammates">
+    <div class="container">
+        {% for teammate in page.team-mates %}
+        <div class="teammate">
+            <div class="image">
+                <img src="{{teammate.image}}" />
+            </div>
+            <div class="name">
+                <h2>{{teammate.name}}</h2>
+            </div>
+            <div class="title">
+                <h3>{{teammate.title}}</h3>
+            </div>
+            <div class="icon-image">
+                <img src="/img/team/team-in.png" />
+            </div>
+            <div class="text">
+                <p>{{teammate.text}}</p>
+                <div class="show-more">
+                    <a href="">Show more</a>
                 </div>
-            {% endfor %}
+            </div>
         </div>
-    </section>
-
-
+        {% endfor %}
+    </div>
+</section>
