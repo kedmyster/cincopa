@@ -53,7 +53,7 @@
                 p {
                     margin-bottom: 50px;
                     @include media ($desktop) {
-                        margin-bottom: 550px;
+                        margin-bottom: 75px;
                         font-size: 18px;
                     }
                 }
@@ -72,6 +72,9 @@
                     background-color: rgba(#101010, 0.4);
                     border-radius: 100%;
                     padding: 15px;
+                    @include media ($desktop) {
+                        margin-bottom: 275px;
+                    }
                 }
             }
         }

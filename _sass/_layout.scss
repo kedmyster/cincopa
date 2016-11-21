@@ -1,11 +1,17 @@
-body{
+body {
     background-size: cover;
 }
+
 header.site-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: rgba(#000000, 0.7);
+    @include media ($desktop){
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
     a {
         color: $base-font-color;
         text-decoration: none;
@@ -16,29 +22,75 @@ header.site-header {
             color: shade($color-primary, 25%);
         }
     }
+    .mobile-logo {
+        text-align: center;
+        img {
+            width: 100px;
+            margin-bottom: 10px;
+            @include media ($tablet){
+                width: 150px;
+            }
+            @include media ($desktop){
+                display:none;
+            }
+        }
+    }
     .logo {
         position: absolute;
+        display: none;
         top: 0;
         left: 0;
+        @include media ($desktop){
+            display:unset;
+        }
         img {
             padding-top: 20px;
             padding-left: 20px;
+            @include media ($desktop){
+                padding-top: 30px;
+                padding-left: 30px;
+            }
         }
+    }
+    .mobile-nav{
+            width: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            @include media ($desktop){
+                display:none;
+            }
     }
     .menu {
         text-align: center;
         font-size: 16px;
         text-transform: uppercase;
+        display: none;
+        @include media ($desktop){
+            display: unset;
+        }
         li {
             display: inline-block;
             margin-left: 40px;
+        }
+    }
+    &:before {
+        content: "";
+        width: 28px;
+        height: 28px;
+        background: $blue;
+        position: absolute;
+        border-radius: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        @include media ($desktop){
+            display:none;
         }
     }
 }
 
 .page-content {
     .page {
-        
         .page-title {
             padding-top: 50px;
             padding-bottom: 50px;
@@ -83,7 +135,6 @@ footer.site-footer {
         background-image: url("/img/static/static-logo.png");
         background-repeat: no-repeat;
         background-position: top center;
-        
         text-align: center;
         @include media ($tablet) {
             font-size: 19px;

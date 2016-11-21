@@ -6,11 +6,11 @@ $(document).ready(function (e) {
         if ($paragraph.attr("aria-expanded") == "false") {
             $paragraph.shave(99999);
             $paragraph.attr("aria-expanded", "true");
-            $('a').html("Show less");
+            $(this).html("Show less");
         } else {
             $paragraph.shave(190);
             $paragraph.attr("aria-expanded", "false");
-            $('a').html("Show more");
+            $(this).html("Show more");
         }
     });
 });
