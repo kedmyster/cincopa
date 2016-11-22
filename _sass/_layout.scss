@@ -5,15 +5,15 @@ body {
 header.site-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    /*padding-top: 30px;
-    padding-bottom: 30px;*/
     position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #000000;
+    height: 63.2px;
     @include media ($desktop) {
         padding-bottom: 25px;
         padding-top: 25px;
+        height: 80px;
     }
     a {
         color: $base-font-color;
@@ -39,13 +39,22 @@ header.site-header {
         }
     }
     .logo {
-        top: 0;
+        top: 50%;
         left: 0;
         display: inline-block;
         vertical-align: middle;
+        position: absolute;
+        transform: translateY(-50%);
         @include media ($desktop) {}
         img {
             padding-left: 10px;
+            max-width: 75%;
+            @include media ($tablet){
+                max-width: 100%;
+            }
+            @include media ($desktop) {
+                padding-left: 25px;
+            }
         }
     }
     .mobile-nav {
@@ -79,10 +88,9 @@ header.site-header {
             z-index: 1;
             opacity: 1;
             position: relative;
-            text-align: right;
+            text-align: center;
             width: unset;
-            display: inline-block;
-            padding-left: 40px;
+            padding-left: 100px;
         }
         @include media ($xldesktop) {
             padding-right: 0;
@@ -98,11 +106,13 @@ header.site-header {
             left: 50%;
             position: fixed;
             transform: translate(-50%, -50%);
+            width: 100%;
             @include media ($desktop) {
                 top: unset;
                 left: unset;
                 position: relative;
                 transform: unset;
+                width: unset;
             }
         }
         li {
