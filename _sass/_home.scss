@@ -34,7 +34,7 @@
                 @include media($desktop) {
                     margin-top: 130px;
                 }
-                img{
+                    img{
                     max-width: 70px;
                     @include media ($tablet){
                         max-width: 85px;
