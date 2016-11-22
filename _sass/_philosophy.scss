@@ -6,10 +6,15 @@
     }
     .bullet {
         text-align: center;
+        margin-bottom: 10px;
+        @include media ($tablet){
+            margin-bottom: 20px;
+        }
         @include media ($desktop) {
             @include span-columns(6);
             @include omega(2n);
             text-align: left;
+            margin-bottom: 40px;
         }
         .title {
             text-transform: uppercase;

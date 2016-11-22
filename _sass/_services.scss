@@ -12,6 +12,7 @@
             @include media ($desktop) {
                 @include span-columns(6);
                 @include omega(2n);
+                margin-bottom: 40px;
             }
             .title {
                 text-transform: uppercase;
@@ -49,7 +50,10 @@
                 margin-right: auto;
                 @include media ($tablet) {
                     display: inline-block;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
                 }
+                @include media ($desktop) {}
                 img {
                     @include media ($tablet) {
                         vertical-align: middle;
