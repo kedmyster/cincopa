@@ -1,5 +1,6 @@
 ---
 title: Home
+showInMenu: false
 position: 0
 about-us:
   title: About us

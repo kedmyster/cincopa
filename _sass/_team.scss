@@ -77,7 +77,6 @@
         .icon-image {
             display: inline-block;
             vertical-align: middle;
-            margin-left: 20px;
             @include media ($tablet) {}
             @include media ($desktop) {
                 margin-left: 0;

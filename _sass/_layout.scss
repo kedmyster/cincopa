@@ -143,6 +143,11 @@ header.site-header {
                 width: 40px;
             }
         }
+        .active {
+            .page-link {
+                color: $blue;
+            }
+        }
     }
     /*&:before {
         content: "";

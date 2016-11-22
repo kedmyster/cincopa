@@ -66,6 +66,12 @@
                     background-position: center;
                 }
             }
+
+            .field.email{
+                input{
+                    padding-left: 20px;
+                }
+            }
         }
         .indicator-message {
             display: none;

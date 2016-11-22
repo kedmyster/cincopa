@@ -1,5 +1,6 @@
 ---
 title: Philosophy
+showInMenu: false
 date: 2016-11-02 11:28:00 Z
 permalink: "/philosophy/"
 order: 3
