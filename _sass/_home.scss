@@ -34,12 +34,12 @@
                 @include media($desktop) {
                     margin-top: 130px;
                 }
-                    img{
+                img {
                     max-width: 70px;
-                    @include media ($tablet){
+                    @include media ($tablet) {
                         max-width: 85px;
                     }
-                    @include media ($desktop){
+                    @include media ($desktop) {
                         max-width: 100%;
                     }
                 }
@@ -81,6 +81,10 @@
                     background-color: rgba(#101010, 0.4);
                     border-radius: 100%;
                     padding: 15px;
+                    transition: opacity $base-duration $base-timing;
+                    &:hover {
+                        opacity: 0.75;
+                    }
                     @include media ($desktop) {
                         margin-bottom: 275px;
                         cursor: pointer;
@@ -113,6 +117,10 @@
                     color: #ffffff;
                     font-style: italic;
                     font-size: 14px;
+                    transition: opacity $base-duration $base-timing;
+                    &:hover {
+                        opacity: 0.75;
+                    }
                 }
             }
         }
@@ -180,6 +188,10 @@
                 color: $blue;
                 font-style: italic;
                 font-size: 14px;
+                transition: opacity $base-duration $base-timing;
+                &:hover {
+                    opacity: 0.75;
+                }
             }
         }
     }
@@ -229,6 +241,10 @@
                     color: $blue;
                     font-style: italic;
                     font-size: 14px;
+                    transition: opacity $base-duration $base-timing;
+                    &:hover {
+                        opacity: 0.75;
+                    }
                     @include media ($desktop) {
                         margin-left: 50px;
                     }

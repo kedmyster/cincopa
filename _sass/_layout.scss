@@ -45,15 +45,19 @@ header.site-header {
         vertical-align: middle;
         position: absolute;
         transform: translateY(-50%);
+        z-index: 3;
         @include media ($desktop) {}
-        img {
-            padding-left: 10px;
-            max-width: 75%;
-            @include media ($tablet) {
-                max-width: 100%;
-            }
-            @include media ($desktop) {
-                padding-left: 25px;
+        a {
+            display: block;
+            img {
+                padding-left: 10px;
+                max-width: 75%;
+                @include media ($tablet) {
+                    max-width: 100%;
+                }
+                @include media ($desktop) {
+                    padding-left: 25px;
+                }
             }
         }
     }
@@ -196,7 +200,14 @@ footer.site-footer {
         background-color: rgba(#000000, 0.7);
         padding-top: 40px;
         padding-bottom: 40px;
-        @include media($desktop){
+        margin-top: 10px;
+        @include media ($tablet) {
+            margin-top: 20px;
+        }
+        @include media ($desktop) {
+            margin-top: 40px;
+        }
+        @include media($desktop) {
             position: relative;
         }
     }
