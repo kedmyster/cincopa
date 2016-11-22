@@ -1,7 +1,7 @@
 ---
 title: Home
-showInMenu: false
 position: 0
+showInMenu: false
 about-us:
   title: About us
   text: CINCOPA (formerly "Epstein Capital") was founded in 2005 by near Nir Epstein
