@@ -1,0 +1,31 @@
+.page-about {
+    font-family: 'Playfair Display', serif;
+    .page {
+        background-image: url(/img/about/about-background.png);
+        background-attachment: fixed;
+        .section.about {
+            max-width: 650px;
+            margin: auto;
+            .page-content {
+                @include media ($xldesktop) {
+                    /*margin-bottom: 200px;*/
+                }
+            }
+            .about-content {
+                p {
+                    margin-bottom: 10px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    @include media ($tablet) {
+                        font-size: 19px;
+                        margin-bottom: 20px;
+                    }
+                    @include media ($desktop) {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

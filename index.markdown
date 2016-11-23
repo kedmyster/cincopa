@@ -1,6 +1,7 @@
 ---
 title: Home
 position: 0
+showInMenu: false
 about-us:
   title: About us
   text: CINCOPA (formerly "Epstein Capital") was founded in 2005 by near Nir Epstein
@@ -10,16 +11,24 @@ about-us:
   page: 
 services:
   title: Services
-  text: 'Over the years CINCOPA has gained extensive experience in tailoring creative
-    financing solutions for clients, among them leading international financials sponsors,
-    and has demonstrated the ability to import  international financing solutions
-    by adapting to Israeli business environment.   '
+  text: Intense focus on providing not only top.
+  our-services:
+  - image: "/img/home/home-handshake.png"
+    title: Private Equity Advisory
+  - image: "/img/home/home-flowers.png"
+    title: Debt restructuring advisory
+  - image: "/img/home/home-moneyhand.png"
+    title: Capital markets advisory
+  - image: "/img/home/home-grapherror.png"
+    title: M&A advisory
+  - image: "/img/home/home-meeting.png"
+    title: Management & board advisory
   page: 
 recent-transactions:
   title: Recent transactions
   text: CINCOPA has extensive experience in orchestrating all types of M&A financials
     and structured transactions
-  trnasactions:
+  transactions:
   - year: 2014
     status: "$3.15 BN"
   - year: 2015

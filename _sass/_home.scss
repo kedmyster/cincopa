@@ -1,0 +1,267 @@
+.page-home {
+    .page-content {
+        // applies to every title on page 
+        .title {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 14px;
+            @include media ($tablet) {
+                font-size: 19px;
+            }
+        }
+        .text {
+            p {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+        }
+        .page-title,
+        .page-tagline {
+            display: none;
+        }
+        .section {
+            padding: 20px;
+            @include media ($desktop) {
+                padding: 40px;
+            }
+        }
+        .section.hero {
+            text-align: center;
+            background-image: url(/img/home/home-background.png);
+            background-attachment: fixed;
+            background-position: 85% 80%;
+            .logo {
+                @include media($desktop) {
+                    margin-top: 60px;
+                }
+                img {
+                    max-width: 70px;
+                    @include media ($tablet) {
+                        max-width: 85px;
+                    }
+                    @include media ($desktop) {
+                        max-width: 100%;
+                    }
+                }
+            }
+            .page-title,
+            .page-tagline {
+                display: unset;
+            }
+            .page-title {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                h1 {
+                    margin-top: 50px;
+                    @include media ($desktop) {
+                        margin-top: 100px;
+                    }
+                }
+            }
+            .page-tagline {
+                p {
+                    margin-bottom: 50px;
+                    @include media ($desktop) {
+                        margin-bottom: 75px;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .page-scroll {
+                display: none;
+                @include media ($desktop) {
+                    display: unset;
+                }
+                p {
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: italic;
+                    font-size: 14px;
+                }
+                img {
+                    background-color: rgba(#101010, 0.4);
+                    border-radius: 100%;
+                    padding: 15px;
+                    transition: opacity $base-duration $base-timing;
+                    &:hover {
+                        opacity: 0.75;
+                    }
+                    @include media ($desktop) {
+                        margin-bottom: 275px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .section.about-us {
+            background-color: $blue;
+            text-align: center;
+            .title {
+                h2 {
+                    @include media ($desktop) {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+            .text {
+                p {
+                    font-size: 14px;
+                    margin-bottom: 20px;
+                    @include media ($desktop) {
+                        font-size: 20px;
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+            .read-more {
+                a {
+                    color: #ffffff;
+                    font-style: italic;
+                    font-size: 14px;
+                    transition: opacity $base-duration $base-timing;
+                    &:hover {
+                        opacity: 0.75;
+                    }
+                }
+            }
+        }
+        .section.services {
+            text-align: center;
+            background-color: #000000;
+            .our-services {
+                max-width: 550px;
+                margin-right: auto;
+                margin-left: auto;
+                @include clearfix;
+                .service {
+                    margin-bottom: 40px;
+                    &:nth-child(1) {
+                        @include media ($desktop) {
+                            @include span-columns(4);
+                        }
+                    }
+                    &:nth-child(2) {
+                        @include media ($desktop) {
+                            @include span-columns(4);
+                            @include shift(4);
+                            @include omega;
+                        }
+                    }
+                    &:nth-child(3) {
+                        @include media ($desktop) {
+                            @include span-columns(12);
+                            @include omega;
+                            text-align: center;
+                        }
+                    }
+                    &:nth-child(4) {
+                        @include media ($desktop) {
+                            @include span-columns(4);
+                        }
+                    }
+                    &:nth-child(5) {
+                        @include media ($desktop) {
+                            @include span-columns(4);
+                            @include shift(4);
+                            @include omega;
+                        }
+                    }
+                    .image {
+                        margin-bottom: 10px;
+                        img {
+                            width: 100.9px;
+                            height: 100.9px;
+                        }
+                    }
+                    .title {
+                        letter-spacing: 1.5px;
+                        p {
+                            font-family: 'Montserrat', sans-serif;
+                            max-width: 170px;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+        }
+        .read-more {
+            a {
+                color: $blue;
+                font-style: italic;
+                font-size: 14px;
+                transition: opacity $base-duration $base-timing;
+                &:hover {
+                    opacity: 0.75;
+                }
+            }
+        }
+    }
+    .section.recent-transactions {
+        text-align: center;
+        background-image: url(/img/home/home-backgroundtwo.png);
+        background-attachment: fixed;
+        @include media($desktop) {
+            padding: 0;
+            padding-top: 230px;
+            padding-bottom: 230px;
+        }
+        .container {
+            @include clearfix;
+            .title {
+                color: $blue;
+            }
+            .transactions {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1200px;
+                font-size: 0;
+                .transaction {
+                    background-color: $blue;
+                    border-radius: 100%;
+                    width: 100px;
+                    height: 100px;
+                    margin-bottom: 20px;
+                    margin: auto;
+                    margin-bottom: 20px;
+                    padding-top: 25px;
+                    @include media ($desktop) {
+                        display: inline-block;
+                        margin-left: 50px;
+                    }
+                    p {
+                        text-transform: uppercase;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 500;
+                        margin: 0;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .read-more {
+                a {
+                    color: $blue;
+                    font-style: italic;
+                    font-size: 14px;
+                    transition: opacity $base-duration $base-timing;
+                    &:hover {
+                        opacity: 0.75;
+                    }
+                    @include media ($desktop) {
+                        margin-left: 50px;
+                    }
+                }
+            }
+        }
+    }
+    .widget-contact {
+        margin-top: 0;
+        .title {
+            text-transform: uppercase;
+            font-size: 20px;
+            color: #0299e8;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}

@@ -15,11 +15,13 @@ layout: page
                 <div class="title">
                     <h2>{{transaction.title}}</h2>
                 </div>
+                {% if transaction.images.size > 0 %}
                 <div class="images">
-                    {% for image in page.images %}
-                        <img src="{{images.image}}"/>
+                    {% for image in transaction.images %}
+                        <img src="{{image}}"/>
                     {% endfor %}
                 </div>
+                {% endif %}
                 <div class="text">
                     <p>{{transaction.text}}</p>
                 </div>
@@ -27,4 +29,5 @@ layout: page
         {% endfor %}
     </div>
 </section>
+
 

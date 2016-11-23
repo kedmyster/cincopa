@@ -1,13 +1,13 @@
 @import "../neat/neat-helpers";
 
 // Neat Overrides
-$column: 130px;
-$gutter: 30px;
+$column: 45.833px;
+$gutter: 450px;
 $grid-columns: 12;
 $max-width: 1000px;
 
 // Define your breakpoints
-//$xldesktop: new-breakpoint(min-width 1685px 12);
-$desktop: new-breakpoint(min-width 1024px 12);
+$xldesktop: new-breakpoint(min-width 1280px 12);
+$desktop: new-breakpoint(min-width 1000px 12);
 $tablet: new-breakpoint(min-width 768px 4);
 $mobile: new-breakpoint(min-width 320px 2);

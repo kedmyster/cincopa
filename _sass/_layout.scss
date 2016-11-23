@@ -1,12 +1,256 @@
-header#header {}
+body {
+    background-size: cover;
+}
 
-section#content {}
+header.site-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    height: 63.2px;
+    @include media ($desktop) {
+        padding-bottom: 25px;
+        padding-top: 25px;
+        height: 80px;
+    }
+    a {
+        color: $base-font-color;
+        text-decoration: none;
+        transition: color $base-duration $base-timing;
+        &:active,
+        &:focus,
+        &:hover {
+            color: shade($color-primary, 25%);
+        }
+    }
+    .mobile-logo {
+        display: inline-block;
+        display: none;
+        img {
+            width: 100px;
+            @include media ($tablet) {
+                width: 150px;
+            }
+            @include media ($desktop) {
+                display: none;
+            }
+        }
+    }
+    .logo {
+        top: 50%;
+        left: 0;
+        display: inline-block;
+        vertical-align: middle;
+        position: absolute;
+        transform: translateY(-50%);
+        z-index: 3;
+        @include media ($desktop) {}
+        a {
+            display: block;
+            img {
+                padding-left: 10px;
+                max-width: 75%;
+                @include media ($tablet) {
+                    max-width: 100%;
+                }
+                @include media ($desktop) {
+                    padding-left: 25px;
+                }
+            }
+        }
+    }
+    .mobile-nav {
+        display: inline-block;
+        width: 50px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 10px;
+        @include media ($desktop) {
+            display: none;
+        }
+        img {
+            width: 40px;
+        }
+    }
+    .menu {
+        text-align: center;
+        text-transform: uppercase;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        z-index: -1;
+        background: black;
+        width: 100%;
+        opacity: 0;
+        transition: all $base-duration $base-timing;
+        @include media ($desktop) {
+            font-size: 16px;
+            background: none;
+            z-index: 1;
+            opacity: 1;
+            position: relative;
+            text-align: center;
+            width: unset;
+            padding-left: 100px;
+        }
+        @include media ($xldesktop) {
+            padding-right: 0;
+            text-align: center;
+            padding-left: 150px;
+        }
+        &.open {
+            z-index: 3;
+            opacity: 1;
+        }
+        ul {
+            top: 50%;
+            left: 50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            @include media ($desktop) {
+                top: unset;
+                left: unset;
+                position: relative;
+                transform: unset;
+                width: unset;
+            }
+        }
+        li {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 40px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            @include media($desktop) {
+                margin-left: 40px;
+                width: unset;
+                margin-bottom: 0;
+            }
+        }
+        .exit {
+            text-align: right;
+            padding-top: 10px;
+            padding-right: 10px;
+            @include media ($desktop) {
+                display: none;
+            }
+            img {
+                width: 40px;
+            }
+        }
+        .active {
+            .page-link {
+                color: $blue;
+            }
+        }
+    }
+    /*&:before {
+        content: "";
+        width: 28px;
+        height: 28px;
+        background: $blue;
+        position: absolute;
+        border-radius: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        @include media ($desktop) {
+            display: none;
+        }
+    }*/
+}
 
-section#contact {}
+.page-content {
+    .page {
+        .page-title {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            h1 {
+                text-align: center;
+                color: #ffffff;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                font-size: 30px;
+                @include media ($desktop) {
+                    letter-spacing: 10px;
+                }
+            }
+        }
+        .page-tagline {
+            p {
+                font-family: 'Playfair Display', serif;
+                text-align: center;
+                max-width: 900px;
+                margin-bottom: 20px;
+                @include media ($tablet) {
+                    font-size: 19px;
+                }
+                @include media ($xldesktop) {
+                    font-size: 24px;
+                    margin: auto;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}
 
-footer#footer {}
+footer.site-footer {
+    .footer {
+        background-color: rgba(#000000, 0.7);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 10px;
+        @include media ($tablet) {
+            margin-top: 20px;
+        }
+        @include media ($desktop) {
+            margin-top: 40px;
+        }
+        @include media($desktop) {
+            position: relative;
+        }
+    }
+    .image {
+        text-align: center;
+        @include media ($desktop) {
+            display: inline-block;
+            position: absolute;
+        }
+    }
+    .text {
+        font-size: 16px;
+        /*background-image: url("/img/static/static-logo.png");
+        background-repeat: no-repeat;
+        background-position: top center;*/
+        text-align: center;
+        @include media ($tablet) {
+            font-size: 19px;
+        }
+        @include media ($desktop) {
+            font-size: 14px;
+            background-position: bottom left;
+            text-align: right;
+        }
+    }
+}
 
 .container {
     position: relative;
     @include outer-container;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include media ($tablet) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    @include media ($xldesktop) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

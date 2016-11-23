@@ -1,0 +1,87 @@
+.page-team {
+    .page {
+        background-image: url("/img/team/team-background.png");
+        background-attachment: fixed;
+    }
+    .teammate {
+        text-align: center;
+        margin-bottom: 50px;
+        @include clearfix();
+        @include media ($desktop) {
+            /*@include span-columns(6);*/
+            text-align: left;
+        }
+        .image {
+            @include media($desktop) {
+                @include span-columns(3);
+            }
+        }
+        .name,
+        .icon,
+        .title,
+        .text {
+            @include media($desktop) {
+                text-align: left;
+                @include span-columns(9);
+                @include omega();
+            }
+        }
+        .name {
+            display: inline-block;
+            h2 {
+                font-family: 'Montserrat', sans-serif;
+                text-transform: uppercase;
+                color: $blue;
+                font-weight: 400;
+                margin-top: 10px;
+                @include media ($tablet) {
+                    font-size: 24px;
+                    margin-top: 20px;
+                }
+                @include media ($desktop) {
+                    margin: 0;
+                }
+            }
+        }
+        .title {
+            h3 {
+                font-family: 'Playfair Display', serif;
+                font-size: 16px;
+                font-weight: 500;
+                @include media($tablet) {
+                    font-size: 18px;
+                }
+                @include media ($desktop) {
+                    font-size: 19px;
+                }
+            }
+        }
+        .text {
+            p {
+                font-family: 'Playfair Display', serif;
+                margin-bottom: 10px;
+                text-align: justify;
+            }
+            .read-more {
+                @include media ($desktop) {
+                    @include span-columns(9);
+                    @include shift(3);
+                }
+                a {
+                    color: $blue;
+                    font-style: italic;
+                    font-size: 14px;
+                }
+            }
+        }
+        .icon-image {
+            display: inline-block;
+            vertical-align: middle;
+            @include media ($tablet) {}
+            @include media ($desktop) {
+                margin-left: 0;
+                text-align: left;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.page-philosophy {
+    font-family: 'Playfair Display', serif;
+    .page {
+        background-image: url(/img/about/about-background.png);
+        background-attachment: fixed;
+    }
+    .bullet {
+        text-align: center;
+        margin-bottom: 10px;
+        @include media ($tablet){
+            margin-bottom: 20px;
+        }
+        @include media ($desktop) {
+            @include span-columns(6);
+            @include omega(2n);
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        .title {
+            text-transform: uppercase;
+            color: $blue;
+            font-size: 20px;
+            @include media ($desktop) {
+                font-size: 24px;
+            }
+            h2 {
+                font-weight: 400;
+                /*font-family: 'Montserrat', sans-serif;*/
+            }
+        }
+        .tagline {
+            h3 {
+                font-family: 'Playfair Display', serif;
+                font-weight: 300;
+            }
+        }
+        .text {
+            p {
+                text-align: justify;
+            }
+        }
+    }
+}

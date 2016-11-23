@@ -1,14 +1,34 @@
 <header class="site-header" role="banner">
   <div class="header">
+    <div class="mobile-logo">
+      <img src="/img/static/static-mobilelogo.png" alt="">
+    </div>
     <div class="logo">
-
+      <a href="/"><img src="/img/static/static-homelogo.png" /></a>
+    </div>
+    <div class="mobile-nav">
+      <img src="/img/static/static-mobilenav.png" alt="">
     </div>
     <div class="menu">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        {% endif %}
-      {% endfor %}
+      <ul>
+        {% assign sorted_pages = site.pages | sort:"order" %} 
+        {% for my_page in sorted_pages %} 
+          {% if my_page.title and my_page.showInMenu %}
+            {% if my_page.url == page.url %}
+              <li class="active">
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              </li>
+            {% else %}
+              <li>
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              </li>
+            {% endif %}
+          {% endif %} 
+        {% endfor %}
+      </ul>
+      <div class="exit">
+        <img src="/img/static/static-exit.png" alt="">
+      </div>
     </div>
   </div>
 </header>
