@@ -92,14 +92,14 @@ header.site-header {
             z-index: 1;
             opacity: 1;
             position: relative;
-            text-align: center;
+            text-align: right;
             width: unset;
-            padding-left: 100px;
+            padding-right: 20px;
         }
         @include media ($xldesktop) {
             padding-right: 0;
             text-align: center;
-            padding-left: 150px;
+            padding-left: 0;
         }
         &.open {
             z-index: 3;
@@ -241,7 +241,7 @@ footer.site-footer {
 }
 
 .container {
-    position: relative;
+    
     @include outer-container;
     padding-left: 15px;
     padding-right: 15px;
