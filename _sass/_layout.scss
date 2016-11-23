@@ -240,9 +240,14 @@ footer.site-footer {
     }
     .image {
         text-align: center;
+        margin-bottom: 10px;
+        @include media ($tablet){
+            margin-bottom: 20px;
+        }
         @include media ($desktop) {
             display: inline-block;
             position: absolute;
+            margin-bottom: 40px;
         }
     }
     .text {
