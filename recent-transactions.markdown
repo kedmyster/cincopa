@@ -1,8 +1,8 @@
 ---
 title: Recent transactions
-showInMenu: true
 date: 2016-11-02 11:24:00 Z
 permalink: "/transactions/"
+showInMenu: true
 order: 5
 transactions:
 - year: 2014

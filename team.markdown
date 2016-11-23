@@ -1,8 +1,8 @@
 ---
 title: Team
-showInMenu: true
 date: 2016-11-02 11:28:00 Z
 permalink: "/team/"
+showInMenu: true
 order: 2
 team-mates:
 - image: "/img/team/icon-nir.jpg"
