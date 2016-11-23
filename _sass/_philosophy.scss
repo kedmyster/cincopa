@@ -3,6 +3,9 @@
     .page {
         background-image: url(/img/about/about-background.png);
         background-attachment: fixed;
+        .page-title{
+            padding-bottom: 0;
+        }
     }
     .bullet {
         text-align: center;

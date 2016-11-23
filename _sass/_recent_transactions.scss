@@ -2,11 +2,11 @@
     .page {
         background-image: url(/img/phil/philosophy-background.png);
         background-attachment: fixed;
-        .page-content {
-            .page-title {
+                    .page-title {
+                padding-top: 50px;
                 margin-bottom: 150px;
+                padding-bottom: 0;
             }
-        }
         .section.transactions {
             text-align: center;
             p {
@@ -17,6 +17,7 @@
             }
             .container {
                 @include clearfix();
+                position: relative;
                 .transaction {
                     background-color: #FFFFFF;
                     border: 2px solid #ffffff;
@@ -79,7 +80,7 @@
                     .text {
                         background-color: $white;
                         color: #000000;
-                        height: 100px;
+                        height: 80px;
                         position: relative;
                         p {
                             margin: 0;
@@ -101,7 +102,7 @@
                             vertical-align: middle;
                             margin-left: 10px;
                             margin-right: 10px;
-                            max-width: 88px;
+                            max-width: 86px;
                             height: auto;
                         }
                         /*img + img{
@@ -113,6 +114,22 @@
                             padding: 20px;
                         }
                     }
+                }
+                .transaction.hide {
+                    display: none;
+                }
+                .show-more,
+                .show-less {
+                    font-size: 14px;
+                    font-style: italic;
+                    text-decoration: underline;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                .show-less {
+                    display: none;
                 }
             }
         }

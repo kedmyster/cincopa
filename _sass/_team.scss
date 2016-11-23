@@ -48,6 +48,7 @@
                 font-family: 'Playfair Display', serif;
                 font-size: 16px;
                 font-weight: 500;
+                margin: 0;
                 @include media($tablet) {
                     font-size: 18px;
                 }
@@ -77,6 +78,9 @@
         .icon-image {
             display: inline-block;
             vertical-align: middle;
+            font-size: 0;
+            margin-top: 10px;
+            margin-bottom: 20px;
             @include media ($tablet) {}
             @include media ($desktop) {
                 margin-left: 0;
