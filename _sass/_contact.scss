@@ -52,9 +52,10 @@
         .field {
             width: 100%;
             textarea#message {
-                height: 100px;
                 padding-top: 15px;
                 padding-left: 20px; 
+                overflow: hidden;
+                resize: none;
             }
             input{
                 padding-left: 20px;

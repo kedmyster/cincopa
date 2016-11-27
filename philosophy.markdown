@@ -1,7 +1,7 @@
 ---
 title: Philosophy
 date: 2016-11-02 11:28:00 Z
-permalink: "/philosophy/"
+permalink: "/about/philosophy/"
 showInMenu: false
 showMiniNav: true
 order: 3
