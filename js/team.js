@@ -1,5 +1,5 @@
 $(document).ready(function (e) {
-    $('.teammate').find('p').shave(190);
+    $('.teammate').find('p').shave(145);
     $('.teammate').find('.show-more').find('a').click(function (e) {
         e.preventDefault();
         var $paragraph = $(this).closest('.text').find('p');
@@ -8,7 +8,7 @@ $(document).ready(function (e) {
             $paragraph.attr("aria-expanded", "true");
             $(this).html("Show less");
         } else {
-            $paragraph.shave(190);
+            $paragraph.shave(145);
             $paragraph.attr("aria-expanded", "false");
             $(this).html("Show more");
         }

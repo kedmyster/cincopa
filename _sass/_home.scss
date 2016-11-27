@@ -12,7 +12,7 @@
         .text {
             p {
                 font-size: 14px;
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
         }
         .page-title,
@@ -30,12 +30,15 @@
             background-image: url(/img/home/home-background.png);
             background-attachment: fixed;
             background-position: 85% 80%;
+            height: 870px;
+            position: relative;
             .logo {
                 @include media($desktop) {
                     margin-top: 60px;
                 }
                 img {
                     max-width: 70px;
+                    height: auto;
                     @include media ($tablet) {
                         max-width: 85px;
                     }
@@ -70,12 +73,17 @@
             .page-scroll {
                 display: none;
                 @include media ($desktop) {
-                    display: unset;
+                    display: block;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 50%;
+                    transform: translateX(-50%);
                 }
                 p {
                     font-family: 'Montserrat', sans-serif;
                     font-style: italic;
                     font-size: 14px;
+                    margin-bottom: 10px;
                 }
                 img {
                     background-color: rgba(#101010, 0.4);
@@ -86,7 +94,6 @@
                         opacity: 0.75;
                     }
                     @include media ($desktop) {
-                        margin-bottom: 275px;
                         cursor: pointer;
                     }
                 }
@@ -128,7 +135,7 @@
             text-align: center;
             background-color: #000000;
             .our-services {
-                max-width: 550px;
+                max-width: 600px;
                 margin-right: auto;
                 margin-left: auto;
                 @include clearfix;
@@ -223,6 +230,9 @@
                     margin: auto;
                     margin-bottom: 20px;
                     padding-top: 25px;
+                    &:first-child{
+                        margin-left: 0;
+                    }
                     @include media ($desktop) {
                         display: inline-block;
                         margin-left: 50px;
@@ -246,7 +256,7 @@
                         opacity: 0.75;
                     }
                     @include media ($desktop) {
-                        margin-left: 50px;
+                    
                     }
                 }
             }

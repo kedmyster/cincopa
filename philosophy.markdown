@@ -3,6 +3,7 @@ title: Philosophy
 date: 2016-11-02 11:28:00 Z
 permalink: "/philosophy/"
 showInMenu: false
+showMiniNav: true
 order: 3
 tagline: We were founded on a strong belief in a set of business principles that guide
   us in our work. These principles allow us to be free of the potential conflicts

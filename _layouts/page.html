@@ -8,16 +8,26 @@ layout: default
       <div class="page-title">
         <h1>{{ page.title | escape }}</h1>
       </div>
+      {% if page.showMiniNav %}
+        <div class="subsection-container">
+          <div class="about-subsection">
+            <a href="/about">about</a>
+          </div>
+          <div class="about-subsection">
+            <a href="/philosophy">philosophy</a>
+          </div>
+        </div>
+      {% endif %}
+      {% if page.tagline %}
       <div class="page-tagline">
-          <p>{{ page.tagline | escape }}</p>
+        <p>{{ page.tagline | escape }}</p>
       </div>
+      {% endif %}
     </div>
   </header>
-
   <div class="page-content">
     {{ content }}
   </div>
-
   <div class="widget-contact">
     {% include widget_contact.html %}
   </div>

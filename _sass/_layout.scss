@@ -92,14 +92,14 @@ header.site-header {
             z-index: 1;
             opacity: 1;
             position: relative;
-            text-align: center;
+            text-align: right;
             width: unset;
-            padding-left: 100px;
+            padding-right: 20px;
         }
         @include media ($xldesktop) {
             padding-right: 0;
             text-align: center;
-            padding-left: 150px;
+            padding-left: 0;
         }
         &.open {
             z-index: 3;
@@ -176,11 +176,33 @@ header.site-header {
                 letter-spacing: 5px;
                 text-transform: uppercase;
                 font-size: 30px;
+                margin: 0;
                 @include media ($desktop) {
                     letter-spacing: 10px;
                 }
             }
         }
+                        .subsection-container {
+                    text-align: center;
+                    margin-bottom: 25px;
+                    margin-top: 25px;
+                    .about-subsection {
+                        display: inline-block;
+                        text-transform: capitalize;
+                        a {
+                            font-size: 14px;
+                            font-family: 'Montserrat', sans-serif;
+                            margin-left: 25px;
+                            margin-right: 25px;
+                            color: rgba(255, 255, 255, 0.7);
+                            text-decoration: none;
+                            transition: all $base-duration $base-timing;
+                            &:hover{
+                                color: $blue;
+                            }
+                        }
+                    }
+                }
         .page-tagline {
             p {
                 font-family: 'Playfair Display', serif;
@@ -218,9 +240,14 @@ footer.site-footer {
     }
     .image {
         text-align: center;
+        margin-bottom: 10px;
+        @include media ($tablet){
+            margin-bottom: 20px;
+        }
         @include media ($desktop) {
             display: inline-block;
             position: absolute;
+            margin-bottom: 40px;
         }
     }
     .text {
@@ -241,7 +268,7 @@ footer.site-footer {
 }
 
 .container {
-    position: relative;
+    
     @include outer-container;
     padding-left: 15px;
     padding-right: 15px;
