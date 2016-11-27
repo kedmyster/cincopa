@@ -10,11 +10,11 @@ layout: default
       </div>
       {% if page.showMiniNav %}
         <div class="subsection-container">
-          <div class="about-subsection">
-            <a href="/about">overview</a>
+          <div class="about-subsection {% if page.url == '/about/' %}active{% endif %}">
+            <a href="/about">Overview</a>
           </div>
-          <div class="about-subsection">
-            <a href="/about/philosophy/">philosophy</a>
+          <div class="about-subsection {% if page.url == '/about/philosophy/' %}active{% endif %}">
+            <a href="/about/philosophy/">Philosophy</a>
           </div>
         </div>
       {% endif %}
