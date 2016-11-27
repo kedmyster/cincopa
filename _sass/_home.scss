@@ -30,8 +30,12 @@
             background-image: url(/img/home/home-background.png);
             background-attachment: fixed;
             background-position: 85% 80%;
-            height: 870px;
             position: relative;
+            @include media ($desktop) {
+                height: 864px;
+                height: calc(100vh - 80px);
+                min-height: 568px;
+            }
             .logo {
                 @include media($desktop) {
                     margin-top: 60px;
@@ -39,6 +43,7 @@
                 img {
                     max-width: 70px;
                     height: auto;
+                    margin-top: 50px;
                     @include media ($tablet) {
                         max-width: 85px;
                     }
@@ -89,6 +94,9 @@
                     background-color: rgba(#101010, 0.4);
                     border-radius: 100%;
                     padding: 15px;
+                    // background-image: url(/img/home/home-downarrow.png);
+                    // background-repeat: no-repeat;
+                    // background-position: center center;
                     transition: opacity $base-duration $base-timing;
                     &:hover {
                         opacity: 0.75;
@@ -230,12 +238,12 @@
                     margin: auto;
                     margin-bottom: 20px;
                     padding-top: 25px;
-                    &:first-child{
-                        margin-left: 0;
-                    }
                     @include media ($desktop) {
                         display: inline-block;
                         margin-left: 50px;
+                        &:first-child {
+                            margin-left: 0;
+                        }
                     }
                     p {
                         text-transform: uppercase;
@@ -255,9 +263,7 @@
                     &:hover {
                         opacity: 0.75;
                     }
-                    @include media ($desktop) {
-                    
-                    }
+                    @include media ($desktop) {}
                 }
             }
         }
