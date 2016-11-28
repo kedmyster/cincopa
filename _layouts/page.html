@@ -8,16 +8,6 @@ layout: default
       <div class="page-title">
         <h1>{{ page.title | escape }}</h1>
       </div>
-      {% if page.showMiniNav %}
-        <div class="subsection-container">
-          <div class="about-subsection {% if page.url == '/about/' %}active{% endif %}">
-            <a href="/about">Overview</a>
-          </div>
-          <div class="about-subsection {% if page.url == '/about/philosophy/' %}active{% endif %}">
-            <a href="/about/philosophy/">Philosophy</a>
-          </div>
-        </div>
-      {% endif %}
       {% if page.tagline %}
       <div class="page-tagline">
         <p>{{ page.tagline | escape }}</p>
