@@ -3,7 +3,6 @@ title: Philosophy
 date: 2016-11-02 11:28:00 Z
 permalink: "/about/philosophy/"
 showInMenu: false
-showMiniNav: true
 order: 3
 tagline: We were founded on a strong belief in a set of business principles that guide
   us in our work. These principles allow us to be free of the potential conflicts
@@ -37,6 +36,6 @@ bullets:
     This enables us to avoid the potential conflicts that may arise in larger, more
     diversified companies. In addition, the smaller size of our company enables us
     to provide clients with strict confidentiality at all times.
-layout: philosophy
+layout: about_philosophy
 ---
 

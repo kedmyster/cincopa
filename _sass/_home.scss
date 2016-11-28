@@ -27,7 +27,7 @@
         }
         .section.hero {
             text-align: center;
-            background-image: url(/img/home/home-background.png);
+            background-image: url(/img/home/home-background.jpg);
             background-attachment: fixed;
             background-position: 85% 80%;
             position: relative;
@@ -212,7 +212,7 @@
     }
     .section.recent-transactions {
         text-align: center;
-        background-image: url(/img/home/home-backgroundtwo.png);
+        background-image: url(/img/home/home-backgroundtwo.jpg);
         background-attachment: fixed;
         @include media($desktop) {
             padding: 0;
