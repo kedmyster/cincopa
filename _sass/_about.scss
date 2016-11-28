@@ -1,9 +1,9 @@
 .page-about {
     font-family: 'Playfair Display', serif;
+    background-image: url(/img/about/about-background.jpg);
+    background-attachment: fixed;
     .page {
-        background-image: url(/img/about/about-background.jpg);
-        background-attachment: fixed;
-        .page-title{
+        .page-title {
             padding-bottom: 0px;
         }
         .section.about {
@@ -30,7 +30,7 @@
                             color: rgba(255, 255, 255, 0.7);
                             text-decoration: none;
                             transition: all $base-duration $base-timing;
-                            &:hover{
+                            &:hover {
                                 color: $blue;
                             }
                         }
