@@ -18,8 +18,7 @@ our-services:
     * Divestitures
     * Restructuring & Bankruptcy transactions
     * Provide valuation analyses & strategic alternatives
-    * Advise on the timing, structure and assist
-    in negotiating & closing
+    * Advise on the timing, structure and assist in negotiating & closing
 - image: "/img/home/home-handshake.png"
   title: |-
     Private
@@ -50,7 +49,6 @@ our-services:
     * Provide advice to executive management and Board
       members on issues relating to shareholder value &
       corporate performance
-
     * Work to ensure that Boards are giving, or receiving, fair value
 layout: services
 ---
