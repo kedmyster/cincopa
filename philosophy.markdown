@@ -29,7 +29,6 @@ bullets:
     significant execution experience from bulge bracket investment banks. Companies
     trust us with some of the most important and complicated mergers, acquisitions,
     sale processes, divestitures and restructurings.
-
 - title: Impartiality
   tagline: Independence and Confidentiality
   text: We always remain impartial and uphold our client's confidence. Epstein Capital
