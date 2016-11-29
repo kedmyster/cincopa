@@ -20,6 +20,7 @@ layout: page
     </div>
 </section>
 
+<div id="about" class="anchor"></div>
 <section class="section about-us">
     <div class="container">
         <div class="title">
@@ -71,8 +72,8 @@ layout: page
         <div class="transactions">
             {% for transaction in page.recent-transactions.transactions %}
                 <div class="transaction">
-                    <p>{{transaction.year}}</p>
-                    <p>{{transaction.status}}</p>
+                    <p class="year">{{transaction.year}}</p>
+                    <p class="status">{{transaction.status}}</p>
                 </div>
             {% endfor %}
         </div>

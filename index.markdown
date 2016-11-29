@@ -11,15 +11,15 @@ about-us:
   page: 
 services:
   title: Services
-  text: Intense focus on providing not only top.
+  text: Intense focus on providing not only top tier investment banking capabilities, but also the highest level of attention, focus and intensity at all stages of a transaction to achieve the best outcomes to our clients.
   our-services:
-  - image: "/img/home/home-handshake.png"
-    title: Private Equity Advisory
   - image: "/img/home/home-flowers.png"
+    title: Private Equity Advisory
+  - image: "/img/home/home-grapherror.png"
     title: Debt restructuring advisory
   - image: "/img/home/home-moneyhand.png"
     title: Capital markets advisory
-  - image: "/img/home/home-grapherror.png"
+  - image: "/img/home/home-handshake.png"
     title: M&A advisory
   - image: "/img/home/home-meeting.png"
     title: Management & board advisory
