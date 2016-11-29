@@ -68,6 +68,12 @@
                     }
                 }
             }
+            &:first-child{
+                margin-top: 60px;
+                @include media ($desktop){
+                    margin-top: 0;
+                }
+            }
         }
     }
 }
