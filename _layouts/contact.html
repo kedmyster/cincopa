@@ -9,9 +9,9 @@ layout: contactlayout
       <div class="address">
         {{ site.address  }}
       </div>
-      <div class="phone">{{ site.phone }}</div>
+      <div class="phone"><a href="tel:{{ site.phone }}">{{ site.phone }}</a></div>
       <div class="fax">{{ site.fax }}</div>
-      <div class="email">{{ site.email }}</div>
+      <div class="email"><a href="mailto:{{ site.email }} ">{{ site.email }}</a></div>
     </div>
     <div class="contact-form">
       <form method="post" action="#">

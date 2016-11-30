@@ -1,17 +1,22 @@
 .page-home {
+    background-image: url(/img/home/home-backgroundtwo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     .page-content {
-        // applies to every title on page 
         .title {
             text-transform: uppercase;
             letter-spacing: 5px;
-            font-size: 14px;
+            font-size: 16px;
             @include media ($tablet) {
-                font-size: 19px;
+                font-size: 16px;
+            }
+            @include media ($desktop) {
+                font-size: 20px;
             }
         }
         .text {
             p {
-                font-size: 14px;
+                font-size: 16px;
                 margin-bottom: 30px;
             }
         }
@@ -28,6 +33,7 @@
         .section.hero {
             text-align: center;
             background-image: url(/img/home/home-background.jpg);
+            background-size: cover;
             background-attachment: fixed;
             background-position: 85% 80%;
             position: relative;
@@ -48,27 +54,32 @@
                         max-width: 85px;
                     }
                     @include media ($desktop) {
-                        max-width: 100%;
+                        max-width: 85px;
+                        width: 100%;
                     }
                 }
             }
             .page-title,
             .page-tagline {
-                display: unset;
+                display: block;
             }
             .page-title {
                 margin-top: 20px;
                 margin-bottom: 20px;
+                padding-top: 0;
+                padding-bottom: 0;
                 h1 {
                     margin-top: 50px;
                     @include media ($desktop) {
                         margin-top: 100px;
+                        font-size: 40px;
                     }
                 }
             }
             .page-tagline {
                 p {
                     margin-bottom: 50px;
+                    font-weight: 400;
                     @include media ($desktop) {
                         margin-bottom: 75px;
                         font-size: 18px;
@@ -77,6 +88,7 @@
             }
             .page-scroll {
                 display: none;
+                cursor: pointer;
                 @include media ($desktop) {
                     display: block;
                     position: absolute;
@@ -85,7 +97,7 @@
                     transform: translateX(-50%);
                 }
                 p {
-                    font-family: 'Montserrat', sans-serif;
+                    font-family: 'Palanquin', sans-serif;
                     font-style: italic;
                     font-size: 14px;
                     margin-bottom: 10px;
@@ -147,6 +159,9 @@
                 margin-right: auto;
                 margin-left: auto;
                 @include clearfix;
+                @include media ($desktop) {
+                    margin-top: 70px;
+                }
                 .service {
                     margin-bottom: 40px;
                     &:nth-child(1) {
@@ -183,16 +198,17 @@
                     .image {
                         margin-bottom: 10px;
                         img {
-                            width: 100.9px;
-                            height: 100.9px;
+                            width: 150px;
+                            height: 150px;
                         }
                     }
                     .title {
                         letter-spacing: 1.5px;
                         p {
-                            font-family: 'Montserrat', sans-serif;
+                            font-family: 'Palanquin', sans-serif;
                             max-width: 170px;
                             margin: auto;
+                            font-weight: 600;
                         }
                     }
                 }
@@ -212,8 +228,6 @@
     }
     .section.recent-transactions {
         text-align: center;
-        background-image: url(/img/home/home-backgroundtwo.jpg);
-        background-attachment: fixed;
         @include media($desktop) {
             padding: 0;
             padding-top: 230px;
@@ -223,12 +237,33 @@
             @include clearfix;
             .title {
                 color: $blue;
+                h2 {
+                    font-size: 16px;
+                    font-weight: 600;
+                    @include media ($tablet) {
+                        font-size: 18px;
+                    }
+                    @include media ($desktop) {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .text {
+                max-width: 650px;
+                margin-left: auto;
+                margin-right: auto;
+                p {
+                    font-size: 16px;
+                }
             }
             .transactions {
                 margin-left: auto;
                 margin-right: auto;
                 max-width: 1200px;
                 font-size: 0;
+                @include media ($desktop) {
+                    margin-top: 70px;
+                }
                 .transaction {
                     background-color: $blue;
                     border-radius: 100%;
@@ -238,6 +273,11 @@
                     margin: auto;
                     margin-bottom: 20px;
                     padding-top: 25px;
+                    @include media ($tablet) {
+                        width: 150px;
+                        height: 150px;
+                        padding-top: 32px;
+                    }
                     @include media ($desktop) {
                         display: inline-block;
                         margin-left: 50px;
@@ -247,10 +287,16 @@
                     }
                     p {
                         text-transform: uppercase;
-                        font-family: 'Montserrat', sans-serif;
+                        font-family: 'Palanquin', sans-serif;
                         font-weight: 500;
                         margin: 0;
                         font-size: 16px;
+                        @include media ($desktop) {
+                            font-size: 26px;
+                        }
+                    }
+                    p.year {
+                        font-family: 'Playfair Display', serif;
                     }
                 }
             }
@@ -277,7 +323,7 @@
             font-weight: 500;
             letter-spacing: 1px;
             margin-bottom: 10px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Palanquin', sans-serif;
         }
     }
 }

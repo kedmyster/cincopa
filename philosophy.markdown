@@ -15,13 +15,6 @@ bullets:
     of our success. We always recommend strategies that only we ourselves would pursue
     were it our company or business. If we don''t believe the project meets the standard
     we will advise against it. '
-- title: Trust
-  tagline: Transaction Execution Experience
-  text: CINCOPA takes on each business relationship and project with the imagination
-    and creativity required and assures realistic and practical advice. We possess
-    significant execution experience from bulge bracket investment banks. Companies
-    trust us with some of the most important and complicated mergers, acquisitions,
-    sale processes, divestitures and restructurings.
 - title: Respect
   tagline: Senior Level Attention and Experience
   text: We believe that every project is important - no matter the size. Epstein Capital
@@ -29,6 +22,13 @@ bullets:
     aspects of client interaction. From the initial evaluation phase to the final
     execution stage you will have a senior member of the management team directly
     involved in every transaction.
+- title: Trust
+  tagline: Transaction Execution Experience
+  text: CINCOPA takes on each business relationship and project with the imagination
+    and creativity required and assures realistic and practical advice. We possess
+    significant execution experience from bulge bracket investment banks. Companies
+    trust us with some of the most important and complicated mergers, acquisitions,
+    sale processes, divestitures and restructurings.
 - title: Impartiality
   tagline: Independence and Confidentiality
   text: We always remain impartial and uphold our client's confidence. Epstein Capital

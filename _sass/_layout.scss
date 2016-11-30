@@ -2,14 +2,26 @@ body {
     background-size: cover;
 }
 
-header.site-header {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+.section {}
+.anchor{
     position: relative;
+    top: -63.2px;
+    @include media ($desktop){
+        top: -80px;
+    }
+}
+header.site-header {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 400;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #000000;
     height: 63.2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
     @include media ($desktop) {
         padding-bottom: 25px;
         padding-top: 25px;
@@ -46,17 +58,20 @@ header.site-header {
         position: absolute;
         transform: translateY(-50%);
         z-index: 3;
+        font-size: 0;
         @include media ($desktop) {}
         a {
             display: block;
             img {
                 padding-left: 10px;
+                height: auto;
                 max-width: 75%;
                 @include media ($tablet) {
-                    max-width: 100%;
+                    max-width: 85%;
                 }
                 @include media ($desktop) {
                     padding-left: 25px;
+                    max-width: 100%;
                 }
             }
         }
@@ -85,15 +100,17 @@ header.site-header {
         background: black;
         width: 100%;
         opacity: 0;
+        visibility: collapse;
         transition: all $base-duration $base-timing;
         @include media ($desktop) {
             font-size: 16px;
             background: none;
             z-index: 1;
             opacity: 1;
+            visibility: visible !important;
             position: relative;
             text-align: right;
-            width: unset;
+            width: auto;
             padding-right: 20px;
         }
         @include media ($xldesktop) {
@@ -104,6 +121,7 @@ header.site-header {
         &.open {
             z-index: 3;
             opacity: 1;
+            visibility: visible;
         }
         ul {
             top: 50%;
@@ -112,11 +130,11 @@ header.site-header {
             transform: translate(-50%, -50%);
             width: 100%;
             @include media ($desktop) {
-                top: unset;
-                left: unset;
+                top: 0;
+                left: 0;
                 position: relative;
-                transform: unset;
-                width: unset;
+                transform: none;
+                width: auto;
             }
         }
         li {
@@ -128,7 +146,7 @@ header.site-header {
             }
             @include media($desktop) {
                 margin-left: 40px;
-                width: unset;
+                width: auto;
                 margin-bottom: 0;
             }
         }
@@ -149,23 +167,18 @@ header.site-header {
             }
         }
     }
-    /*&:before {
-        content: "";
-        width: 28px;
-        height: 28px;
-        background: $blue;
-        position: absolute;
-        border-radius: 100%;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        @include media ($desktop) {
-            display: none;
-        }
-    }*/
+    
 }
 
 .page-content {
+    margin-top: 63.2px;
+    @include media ($desktop) {
+        margin-top: 80px;
+        
+    }
+    @media screen and (min-height: 730px){
+        min-height: 770px;
+    }
     .page {
         .page-title {
             padding-top: 50px;
@@ -182,34 +195,34 @@ header.site-header {
                 }
             }
         }
-                        .subsection-container {
-                    text-align: center;
-                    margin-bottom: 25px;
-                    margin-top: 25px;
-                    .about-subsection {
-                        display: inline-block;
-                        text-transform: capitalize;
-                        a {
-                            font-size: 14px;
-                            font-family: 'Montserrat', sans-serif;
-                            margin-left: 25px;
-                            margin-right: 25px;
-                            color: rgba(255, 255, 255, 0.7);
-                            text-decoration: none;
-                            transition: all $base-duration $base-timing;
-                            &:hover,
-                            &:focus{
-                                color: $blue;
-                            }
-                        }
-                    }
-
-                    .about-subsection.active{
-                        a{
-                            color: $blue;
-                        }
+        .subsection-container {
+            text-align: center;
+            margin-bottom: 25px;
+            margin-top: 25px;
+            .about-subsection {
+                display: inline-block;
+                text-transform: capitalize;
+                a {
+                    font-size: 16px;
+                    font-family: 'Palanquin', sans-serif;
+                    font-weight: 600;
+                    margin-left: 25px;
+                    margin-right: 25px;
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: all $base-duration $base-timing;
+                    &:hover,
+                    &:focus {
+                        color: $blue;
                     }
                 }
+            }
+            .about-subsection.active {
+                a {
+                    color: $blue;
+                }
+            }
+        }
         .page-tagline {
             p {
                 font-family: 'Playfair Display', serif;
@@ -231,37 +244,22 @@ header.site-header {
 
 footer.site-footer {
     .footer {
-        background-color: rgba(#000000, 0.7);
-        padding-top: 40px;
-        padding-bottom: 40px;
-        margin-top: 10px;
-        @include media ($tablet) {
-            margin-top: 20px;
-        }
-        @include media ($desktop) {
-            margin-top: 40px;
-        }
+        background-color: #000000;
+        padding-top: 20px;
+        padding-bottom: 20px;
         @include media($desktop) {
             position: relative;
         }
     }
     .image {
         text-align: center;
-        margin-bottom: 10px;
-        @include media ($tablet){
-            margin-bottom: 20px;
-        }
         @include media ($desktop) {
             display: inline-block;
             position: absolute;
-            margin-bottom: 40px;
         }
     }
     .text {
         font-size: 16px;
-        /*background-image: url("/img/static/static-logo.png");
-        background-repeat: no-repeat;
-        background-position: top center;*/
         text-align: center;
         @include media ($tablet) {
             font-size: 19px;
@@ -274,8 +272,27 @@ footer.site-footer {
     }
 }
 
+.element-margin {
+    margin-bottom: 10px;
+    @include media($tablet) {
+        margin-bottom: 20px;
+    }
+    @include media ($desktop) {
+        margin-bottom: 40px;
+    }
+}
+
+.element-padding {
+    padding: 10px;
+    @include media($tablet) {
+        padding: 20px;
+    }
+    @include media ($desktop) {
+        padding: 40px;
+    }
+}
+
 .container {
-    
     @include outer-container;
     padding-left: 15px;
     padding-right: 15px;

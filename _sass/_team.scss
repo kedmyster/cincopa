@@ -1,8 +1,8 @@
 .page-team {
-    .page {
-        background-image: url(/img/team/team-background.jpg);
-        background-attachment: fixed;
-    }
+    background-image: url(/img/team/team-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    .page {}
     .teammate {
         text-align: center;
         margin-bottom: 50px;
@@ -29,10 +29,10 @@
         .name {
             display: inline-block;
             h2 {
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Palanquin', sans-serif;
                 text-transform: uppercase;
                 color: $blue;
-                font-weight: 400;
+                font-weight: 600;
                 margin-top: 10px;
                 @include media ($tablet) {
                     font-size: 22px;
@@ -40,6 +40,7 @@
                 }
                 @include media ($desktop) {
                     margin: 0;
+                    font-size: 24px;
                 }
             }
         }
@@ -47,13 +48,13 @@
             h3 {
                 font-family: 'Playfair Display', serif;
                 font-size: 16px;
-                font-weight: 500;
+                font-weight: 400;
                 margin: 0;
                 @include media($tablet) {
                     font-size: 18px;
                 }
                 @include media ($desktop) {
-                    font-size: 19px;
+                    font-size: 20px;
                 }
             }
         }
@@ -63,13 +64,8 @@
                 margin-bottom: 10px;
                 text-align: justify;
             }
-            .read-more {
-                @include media ($desktop) {
-                    @include span-columns(9);
-                    @include shift(3);
-                }
+            .show-more {
                 a {
-                    color: $blue;
                     font-style: italic;
                     font-size: 14px;
                 }
