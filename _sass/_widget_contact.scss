@@ -70,11 +70,23 @@
             .field.email{
                 input{
                     padding-left: 20px;
+
+                    &.error {
+                        border-color: $red; 
+                    }
+                }
+
+                label {
+                    display: none !important;
                 }
             }
         }
         .indicator-message {
-            display: none;
+            margin-top: 20px;
+            
+            .send-success, .send-error {
+                display: none;
+            }
         }
     }
 }

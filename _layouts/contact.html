@@ -14,7 +14,7 @@ layout: contactlayout
       <div class="email"><a href="mailto:{{ site.email }} ">{{ site.email }}</a></div>
     </div>
     <div class="contact-form">
-      <form method="post" action="#">
+      <form method="post" action="https://hooks.zapier.com/hooks/catch/1601399/t5pmqh/">
         <div class="field name">
           <input type="text" id="name" name="name" placeholder="Full Name *" />
         </div>
@@ -22,25 +22,26 @@ layout: contactlayout
           <input type="email" id="email" name="email" placeholder="Email *" />
         </div>
         <div class="field phone">
-          <input type="text" id="phone" name="phone" placeholder="Phone *" />
+          <input type="text" id="phone" name="phone" placeholder="Phone" />
         </div>
         <div class="field company">
-          <input type="text" id="company" name="company" placeholder="Company *" />
+          <input type="text" id="company" name="company" placeholder="Company" />
         </div>
         <div class="field message">
-          <textarea name="text" id="message" placeholder="Message *"></textarea>
+          <textarea name="text" id="message" placeholder="Message"></textarea>
         </div>
         <div class="cta-button">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>
-    </div>
-    <div class="indicator-message">
-      <div class="send-success">
-        ההודעה נשלחה בהצלחה
-      </div>
-      <div class="send-error">
-        ההודעה לא נשלחה
+
+      <div class="indicator-message">
+        <div class="send-success">
+          Message sent successfully
+        </div>
+        <div class="send-error">
+          An error has occured, please try again later
+        </div>
       </div>
     </div>
   </div>
