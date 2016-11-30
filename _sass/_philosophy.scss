@@ -7,6 +7,16 @@
         .page-title {
             padding-bottom: 0;
         }
+        .page-tagline {
+            @include media ($tablet) {
+                max-width: 65%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @include media ($desktop) {
+                max-width: none;
+            }
+        }
     }
     .bullet {
         text-align: center;
@@ -17,12 +27,21 @@
             @include omega(2n);
             text-align: left;
         }
+        &:last-child{
+            margin-bottom: 40px;
+            @include media ($tablet){
+                margin-bottom: 60px;
+            }
+            @include media ($desktop){
+                margin-bottom: 100px;
+            }
+        }
         .title {
             text-transform: uppercase;
             color: $blue;
             font-size: 20px;
             h2 {
-                    @include media ($desktop) {
+                @include media ($desktop) {
                     font-size: 22px;
                 }
             }
@@ -30,9 +49,18 @@
         .tagline {
             h3 {
                 font-family: 'Playfair Display', serif;
+                font-weight: 400;
             }
         }
         .text {
+            @include media($tablet) {
+                max-width: 65%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @include media($desktop) {
+                max-width: none;
+            }
             p {
                 text-align: justify;
             }

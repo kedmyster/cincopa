@@ -2,85 +2,101 @@
     background-image: url(/img/team/team-background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    .page {}
+
     .teammate {
         text-align: center;
         margin-bottom: 50px;
         @include clearfix();
-        @include media ($desktop) {
-            /*@include span-columns(6);*/
-            text-align: left;
+
+        @include media($tablet) {
+             text-align: left;
         }
+       
         .image {
-            @include media($desktop) {
-                @include span-columns(3);
+            @include media($tablet) {
+                float: left;
+                width: 280px;
+                height: 370px;
+                margin-right: -280px;
             }
-        }
-        .name,
-        .icon,
-        .title,
-        .text {
-            @include media($desktop) {
-                text-align: left;
-                @include span-columns(9);
-                @include omega();
-            }
-        }
-        .name {
-            display: inline-block;
-            h2 {
-                font-family: 'Palanquin', sans-serif;
-                text-transform: uppercase;
-                color: $blue;
-                font-weight: 600;
-                margin-top: 10px;
-                @include media ($tablet) {
-                    font-size: 22px;
-                    margin-top: 20px;
-                }
-                @include media ($desktop) {
-                    margin: 0;
-                    font-size: 24px;
-                }
-            }
-        }
-        .title {
-            h3 {
-                font-family: 'Playfair Display', serif;
-                font-size: 16px;
-                font-weight: 400;
-                margin: 0;
+
+            img {
+                max-width: 200px;
+
                 @include media($tablet) {
-                    font-size: 18px;
+                    max-width: none;
                 }
+            }
+        }
+        
+        .info {
+            @include media($tablet) {
+                float: left;
+                padding-left: 280px;
+            }
+
+            .name {
+                display: inline-block;
+                h2 {
+                    font-family: 'Palanquin', sans-serif;
+                    text-transform: uppercase;
+                    color: $blue;
+                    font-weight: 600;
+                    margin-top: 10px;
+                    @include media ($tablet) {
+                        font-size: 22px;
+                        margin-top: 20px;
+                    }
+                    @include media ($desktop) {
+                        margin: 0;
+                        font-size: 24px;
+                    }
+                }
+            }
+            .title {
+                margin-top: 5px;
+                margin-bottom: 5px;
+
+                h3 {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin: 0;
+                    @include media($tablet) {
+                        font-size: 18px;
+                    }
+                    @include media ($desktop) {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .text {
+                p {
+                    font-family: 'Palanquin', sans-serif;
+                    margin-bottom: 10px;
+                    text-align: justify;
+                    @include media ($desktop) {
+                        font-size: 18px;
+                    }
+                }
+                .show-more {
+                    a {
+                        font-style: italic;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .icon-image {
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 0;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                @include media ($tablet) {}
                 @include media ($desktop) {
-                    font-size: 20px;
+                    margin-left: 0;
+                    text-align: left;
                 }
-            }
-        }
-        .text {
-            p {
-                font-family: 'Playfair Display', serif;
-                margin-bottom: 10px;
-                text-align: justify;
-            }
-            .show-more {
-                a {
-                    font-style: italic;
-                    font-size: 14px;
-                }
-            }
-        }
-        .icon-image {
-            display: inline-block;
-            vertical-align: middle;
-            font-size: 0;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            @include media ($tablet) {}
-            @include media ($desktop) {
-                margin-left: 0;
-                text-align: left;
             }
         }
     }

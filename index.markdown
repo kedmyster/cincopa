@@ -16,15 +16,15 @@ services:
     a transaction to achieve the best outcomes to our clients.
   our-services:
   - image: "/img/home/home-flowers.png"
-    title: Private Equity Advisory
+    title: Private Equity<br/>Advisory
   - image: "/img/home/home-grapherror.png"
-    title: Debt restructuring advisory
+    title: Debt restructuring<br/>advisory
   - image: "/img/home/home-moneyhand.png"
-    title: Capital markets advisory
+    title: Capital markets<br/>advisory
   - image: "/img/home/home-handshake.png"
-    title: M&A advisory
+    title: M&A<br/>advisory
   - image: "/img/home/home-meeting.png"
-    title: Management & board advisory
+    title: Management<br/>& board advisory
   page: 
 recent-transactions:
   title: Recent transactions

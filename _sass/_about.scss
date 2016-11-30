@@ -7,9 +7,14 @@
         .page-title {
             padding-bottom: 0px;
         }
+        .page-content{
+            margin-top: 40px;
+        }
         .section.about {
             max-width: 650px;
-            margin: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 120px;
             .container {
                 .page-content {
                     @include media ($xldesktop) {
