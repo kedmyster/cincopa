@@ -20,10 +20,7 @@ layout: page
                     <a href="{{teammate.social.linkedin}}"><img src="/img/team/team-in.png" /></a>
                 </div>
                 <div class="text">
-                    <p aria-expanded="false">{{teammate.text}}</p>
-                    <div class="show-more">
-                        <a href="#">Show more</a>
-                    </div>
+                    {{teammate.text | markdownify}}
                 </div>
             </div>
         </div>

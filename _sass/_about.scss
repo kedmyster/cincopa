@@ -16,32 +16,6 @@
             margin-right: auto;
             margin-bottom: 120px;
             .container {
-                .page-content {
-                    @include media ($xldesktop) {
-                        /*margin-bottom: 200px;*/
-                    }
-                }
-                // .subsection-container {
-                //     text-align: center;
-                //     margin-bottom: 25px;
-                //     margin-top: 25px;
-                //     .about-subsection {
-                //         display: inline-block;
-                //         text-transform: capitalize;
-                //         a {
-                //             font-size: 16px;
-                //             font-family: 'Palanquin', sans-serif;
-                //             margin-left: 25px;
-                //             margin-right: 25px;
-                //             color: rgba(255, 255, 255, 0.7);
-                //             text-decoration: none;
-                //             transition: all $base-duration $base-timing;
-                //             &:hover {
-                //                 color: $blue;
-                //             }
-                //         }
-                //     }
-                // }
                 .about-content {
                     p {
                         @extend .element-margin;

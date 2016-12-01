@@ -19,7 +19,7 @@ our-services:
     * Advise on the timing, structure and assist in negotiating & closing
 - image: "/img/home/home-handshake.png"
   title: Private<br/>Equity Advisory
-  description: "* Provide unbiased advice & execution expertise\x03on private equity
+  description: "* Provide unbiased advice & execution expertise on private equity
     transactions\n* Finance sourcing, deal planning and deal strategy\n* Deal structuring,
     exit planning and execution"
 - image: "/img/home/home-moneyhand.png"
@@ -30,7 +30,7 @@ our-services:
     * Unbiased view based on our extensive experience with US, European & Israeli exchanges
 - image: "/img/home/home-grapherror.png"
   title: Debt<br/>restructuring advisory
-  description: "* Financial restructuring services, strategic advice \x03& related
+  description: "* Financial restructuring services, strategic advice & related
     investment banking services\n* Lead negotiations with equity holders & debt holders\n*
     Restructuring of other corporate liabilities"
 - image: "/img/home/home-meeting.png"
