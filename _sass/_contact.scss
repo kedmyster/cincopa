@@ -3,8 +3,6 @@
     background-attachment: fixed;
     background-size: cover;
     .section-contact {
-        margin-bottom: 90px;
-
         @include media ($tablet) {
             text-align: center;
         }
