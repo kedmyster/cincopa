@@ -1,0 +1,19 @@
+{
+  "name": "cincopa",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kedmyster/cincopa",
+  "authors": [
+    "Adi Kedmi <adi@masta.co.il>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "textarea-autosize": "^0.4.2"
+  }
+}
