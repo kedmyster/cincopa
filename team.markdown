@@ -9,7 +9,7 @@ team-mates:
   name: Nir Epstein
   title: Founder and Managing Director
   social:
-    linkedin: https://www.linkedin.com/uas/login
+    linkedin: https://il.linkedin.com/in/epsteincap
   text: Mr. Epstein is the founder and Managing Director of Cincopa. Mr. Epstein has
     more than 17 years of professional experience in business advisory both as a lawyer
     and as an investment banker. Mr. Epstein also has experience in managing the largest
@@ -38,7 +38,7 @@ team-mates:
   name: Amir Tchetchik
   title: Managing Director
   social:
-    linkedin: https://www.linkedin.com/uas/login
+    linkedin: https://il.linkedin.com/in/amirtchetchi
   text: "Mr. Tchetchik is a Managing Director in Cincopa. Prior to joining Cincopa,
     Mr. Tchetchik held various positions in Migdal Insurance ltd., one of Israelâ€™s
     largest asset Managers. Most recently, Mr. Tchetchik served as Migdalâ€™s Head
