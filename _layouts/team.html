@@ -6,22 +6,24 @@ layout: page
     <div class="container">
         {% for teammate in page.team-mates %}
         <div class="teammate">
-            <div class="image" width="181" height="270">
+            <div class="image">
                 <img src="{{teammate.image}}" />
             </div>
-            <div class="name">
-                <h2>{{teammate.name}}</h2>
-            </div>
-            <div class="title">
-                <h3>{{teammate.title}}</h3>
-            </div>
-            <div class="icon-image">
-                <a href="{{teammate.social.linkedin}}"><img src="/img/team/team-in.png" /></a>
-            </div>
-            <div class="text">
-                <p aria-expanded="false">{{teammate.text}}</p>
-                <div class="show-more">
-                    <a href="#">Show more</a>
+            <div class="info">
+                <div class="name">
+                    <h2>{{teammate.name}}</h2>
+                </div>
+                <div class="title">
+                    <h3>{{teammate.title}}</h3>
+                </div>
+                <div class="icon-image">
+                    <a href="{{teammate.social.linkedin}}"><img src="/img/team/team-in.png" /></a>
+                </div>
+                <div class="text">
+                    <div aria-expanded="false" class="all-text">{{teammate.text | markdownify}}</div>
+                    <div class="show-more">
+                        <a href="#">Show more</a>
+                    </div>
                 </div>
             </div>
         </div>

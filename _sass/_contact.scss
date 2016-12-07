@@ -3,12 +3,17 @@
     background-attachment: fixed;
     background-size: cover;
     .section-contact {
-        margin-bottom: 90px;
+        @include media ($tablet) {
+            text-align: center;
+        }
+
         .info {
             text-align: left;
             margin-bottom: 50px;
-            @include media ($desktop) {
-                @include span-columns(6);
+            font-family: 'Palanquin', sans-serif;
+            @include media ($tablet) {
+                display: inline-block;
+                vertical-align: top;
             }
             .logo {
                 text-transform: uppercase;
@@ -56,9 +61,11 @@
             }
         }
         .contact-form {
-            @include media ($desktop) {
-                @include span-columns(6);
-                @include omega(2n);
+            @include media ($tablet) {
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 150px;
+                width: 370px;
             }
             .field {
                 width: 100%;
@@ -72,6 +79,13 @@
                 input {
                     padding-left: 20px;
                     margin-bottom: 20px;
+
+                    &.error {
+                        border-color: $red; 
+                    }
+                }
+                label {
+                    display: none !important;
                 }
             }
             .cta-button {
@@ -79,17 +93,18 @@
                     width: 100%;
                     background-image: url("/img/contact/contact-buttarrow.png");
                     background-repeat: no-repeat;
-                    background-position: right 25px bottom 13px;
-                    @include media ($desktop) {
-                        height: 60px;
-                        font-size: 20px;
-                        background-position: right 25px bottom 25px;
-                    }
+                    height: 60px;
+                    font-size: 20px;
+                    background-position: right 25px bottom 25px;
                 }
             }
         }
         .indicator-message {
-            display: none;
+            margin-top: 20px;
+            
+            .send-success, .send-error {
+                display: none;
+            }
         }
     }
 }

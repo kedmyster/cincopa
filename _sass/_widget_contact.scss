@@ -1,20 +1,16 @@
-.widget-contact {
+.page-contact-widget {
     text-align: center;
     font-family: 'Playfair Display', serif;
     background-color: rgba(#000000, 0.7);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    // margin-top: 50px;
-    @include media ($tablet) {
-        padding-top: 35px;
-        padding-bottom: 35px;
-        // margin-top: 100px;
-    }
+    padding: 20px;
     @include media ($desktop) {
-        padding-top: 50px;
-        padding-top: 50px;
-        // margin-top: 200px;
+        padding: 40px;
     }
+
+    .widget-contact {
+        padding: 0 !important;
+    }
+
     .title {
         text-transform: uppercase;
         font-size: 20px;
@@ -70,11 +66,22 @@
             .field.email{
                 input{
                     padding-left: 20px;
+
+                    &.error {
+                        border-color: $red; 
+                    }
+                }
+
+                label {
+                    display: none !important;
                 }
             }
         }
         .indicator-message {
-            display: none;
+            .send-success, .send-error {
+                margin-top: 20px;
+                display: none;
+            }
         }
     }
 }
