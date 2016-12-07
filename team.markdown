@@ -38,7 +38,7 @@ team-mates:
   name: Amir Tchetchik
   title: Managing Director
   social:
-    linkedin: https://il.linkedin.com/in/amirtchetchi
+    linkedin: https://www.linkedin.com/in/amirtchetchik
   text: "Mr. Tchetchik is a Managing Director in Cincopa. Prior to joining Cincopa,
     Mr. Tchetchik held various positions in Migdal Insurance ltd., one of Israelâ€™s
     largest asset Managers. Most recently, Mr. Tchetchik served as Migdalâ€™s Head
