@@ -50,7 +50,7 @@ team-mates:
     in Tahori Investment House, an Israeli investment firm, where he consulted private
     and public companies in numerous transactions across various industries. In addition
     to that, Mr. Tchetchik served as product manager and business analyst in two Israeli
-    start-ups, Mirabilis and WeFi. \n<br/></br>\nMr. Tchetchik received an MSc, with
+    start-ups, Mirabilis and WeFi. \n<br/><br/>\nMr. Tchetchik received an MSc, with
     Merit, in Finance and Economics from London School of Economics and Political
     Science (LSE) and a Bachelor degree in Economics from the Tel-Aviv University."
 layout: team
