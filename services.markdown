@@ -25,18 +25,14 @@ our-services:
     * Deal structuring, exit planning and execution
 - image: "/img/home/home-moneyhand.png"
   title: Capital<br/>markets advisory
-  description: |-
-    * Public / Private Transactions Advisory
-    * Capital structure advisory
-    * Unbiased view based on our extensive experience with US, European & 
-      Israeli exchanges
+  description: "* Public / Private Transactions Advisory\n* Capital structure advisory\n*
+    Unbiased view based on our extensive experience with US, European & \n  Israeli
+    exchanges"
 - image: "/img/home/home-grapherror.png"
   title: Debt<br/>restructuring advisory
-  description: |-
-    * Financial restructuring services, strategic advice & 
-      related investment banking services
-    * Lead negotiations with equity holders & debt holders
-    * Restructuring of other corporate liabilities
+  description: "* Financial restructuring services, strategic advice & \n  related
+    investment banking services\n* Lead negotiations with equity holders & debt holders\n*
+    Restructuring of other corporate liabilities"
 - image: "/img/home/home-meeting.png"
   title: Management<br/>& board advisory
   description: |-
@@ -46,3 +42,4 @@ our-services:
     * Work to ensure that Boards are giving, or receiving, fair value
 layout: services
 ---
+
