@@ -11,18 +11,17 @@ our-services:
 - image: "/img/home/home-handshake.png"
   title: M&A<br/>advisory
   description: |-
-    * Buy Side M&A
-    * Sell Side M&A
-    * Divestitures
+    * Vast experience representing both sellers and buyers
     * Restructuring & Bankruptcy transactions
     * Provide valuation analyses & strategic alternatives
     * Advise on the timing, structure and assist in negotiating & closing
 - image: "/img/home/home-flowers.png"
   title: Private<br/>Equity Advisory
-  description: |-
-    * Provide unbiased advice & execution expertise on private equity transactions
-    * Finance sourcing, deal planning and deal strategy
-    * Deal structuring, exit planning and execution
+  description: "* Provide unbiased advice & execution expertise on private equity
+    transactions\n* Finance sourcing from local and international sources\n* Deal
+    structuring, exit planning and execution\n* Financial restructuring services,
+    strategic advice  & related investment banking services\n*\tLead negotiations
+    with equity holders & creditors\n*\tRestructuring of other corporate liabilities"
 - image: "/img/home/home-moneyhand.png"
   title: Capital<br/>markets advisory
   description: "* Public / Private Transactions Advisory\n* Capital structure advisory\n*
@@ -35,11 +34,9 @@ our-services:
     Restructuring of other corporate liabilities"
 - image: "/img/home/home-meeting.png"
   title: Management<br/>& board advisory
-  description: |-
-    * Provide advice to executive management and Board
-      members on issues relating to shareholder value &
-      corporate performance
-    * Work to ensure that Boards are giving, or receiving, fair value
+  description: "* Provide advice to executive management and Board\n  members on issues
+    relating to shareholder value &\n  corporate performance     \n* Work to ensure
+    that boards are giving, or receiving, fair value"
 layout: services
 ---
 
