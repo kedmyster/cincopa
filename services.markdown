@@ -17,13 +17,11 @@ our-services:
     * Advise on the timing, structure and assist in negotiating & closing
 - image: "/img/home/home-flowers.png"
   title: Private<br/>Equity Advisory
-  description: |-
-    * Provide unbiased advice & execution expertise on private equity transactions
-    * Finance sourcing from local and international sources
-    * Deal structuring, exit planning and execution
-    * Financial restructuring services, strategic advice  & related investment banking services
-    *	Lead negotiations with equity holders & creditors
-    *	Restructuring of other corporate liabilities
+  description: "* Provide unbiased advice & execution expertise on private equity
+    transactions\n* Finance sourcing from local and international sources\n* Deal
+    structuring, exit planning and execution\n* Financial restructuring services,
+    strategic advice  & related investment banking services\n*\tLead negotiations
+    with equity holders & creditors\n*\tRestructuring of other corporate liabilities"
 - image: "/img/home/home-moneyhand.png"
   title: Capital<br/>markets advisory
   description: "* Public / Private Transactions Advisory\n* Capital structure advisory\n*
@@ -36,11 +34,9 @@ our-services:
     Restructuring of other corporate liabilities"
 - image: "/img/home/home-meeting.png"
   title: Management<br/>& board advisory
-  description: |-
-    * Provide advice to executive management and Board
-      members on issues relating to shareholder value &
-      corporate performance     
-    * Work to ensure that boards are giving, or receiving, fair value
+  description: "* Provide advice to executive management and Board\n  members on issues
+    relating to shareholder value &\n  corporate performance     \n* Work to ensure
+    that boards are giving, or receiving, fair value"
 layout: services
 ---
 
