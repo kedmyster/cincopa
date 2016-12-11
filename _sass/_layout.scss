@@ -193,6 +193,7 @@ header.site-header {
     }
     @media screen and (min-height: 730px) {
         min-height: 809px;
+        min-height: calc(100vh - 141px);        
     }
     .page {
         .page-title {

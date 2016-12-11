@@ -40,9 +40,9 @@ team-mates:
   social:
     linkedin: https://www.linkedin.com/in/amirtchetchik
   text: "Mr. Tchetchik is a Managing Director in Cincopa. Prior to joining Cincopa,
-    Mr. Tchetchik held various positions in Migdal Insurance ltd., one of Israelâ€™s
-    largest asset Managers. Most recently, Mr. Tchetchik served as Migdalâ€™s Head
-    of Alternative assets, with responsibilities that included direct equity investments,
+    Mr. Tchetchik held various positions in Migdal Insurance ltd., one of Israel's
+    largest asset Managers. Most recently, Mr. Tchetchik served as Migdal's Head of
+    Alternative assets, with responsibilities that included direct equity investments,
     debt restructuring and investment in Private Equity funds and Hedge Funds. In
     this role, Amir led several successful investments in real estate, hotels, industries
     and technology. Mr. Tchetchik also served a bondholder committee member in Zim
