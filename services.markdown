@@ -20,12 +20,7 @@ our-services:
 - image: "/img/home/home-flowers.png"
   title: Private<br/>Equity Advisory
   description: |-
-<<<<<<< HEAD
-    * Provide unbiased advice & execution expertise on private equity 
-      transactions
-=======
     * Provide unbiased advice & execution expertise on private equity transactions
->>>>>>> 331f58e74291ddd331bb99f29fc63b12f5e6c075
     * Finance sourcing, deal planning and deal strategy
     * Deal structuring, exit planning and execution
 - image: "/img/home/home-moneyhand.png"
@@ -51,4 +46,3 @@ our-services:
     * Work to ensure that Boards are giving, or receiving, fair value
 layout: services
 ---
-
