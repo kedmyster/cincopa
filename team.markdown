@@ -17,7 +17,7 @@ team-mates:
     of Cincopa in 2005, Mr. Epstein has been advising international companies on M&A
     and private equity investments. During this period Mr. Epstein represented a wide
     range of multinational corporations on significant investments, mergers, acquisitions,
-    divestitures, restructurings and other strategic corporate transactions. <br/>><br/>>Prior
+    divestitures, restructurings and other strategic corporate transactions. <br/><br/>Prior
     to establishing Cincopa, Mr. Epstein was an investment banker with Lehman Brothers
     Inc. (1997 - 2005) and in his last role served as Head of Lehman Brothers Israel
     office (2003-2005) and prior to that a member of the Israeli coverage team and
