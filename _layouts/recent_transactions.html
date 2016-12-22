@@ -5,7 +5,7 @@ layout: page
 <section class="section transactions">
     <div class="container">
         {% for transaction in page.transactions %}
-        <div class="transaction {% if forloop.index > 3 %}hide{% endif %}">
+        <div class="transaction">
             <div class="year">
                 <p>{{transaction.year}}</p>
             </div>
@@ -26,11 +26,5 @@ layout: page
             </div>
         </div>
         {% endfor %}
-        <div class="show-more">
-            <a href="#">Show more</a>
-        </div>
-        <div class="show-less">
-            <a href="#">Show less</a>
-        </div>
     </div>
 </section>

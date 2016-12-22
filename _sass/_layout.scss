@@ -1,3 +1,13 @@
+html,
+body {
+  height: 100%;
+  height: calc(100% - 63.2px);
+
+  @include media($desktop) {
+    height: calc(100% - 80px);
+  }
+}
+
 body {
     background-size: cover;
 }
@@ -182,12 +192,13 @@ header.site-header {
         margin-top: 80px;
     }
     @media screen and (min-height: 730px) {
-        min-height: 770px;
+        min-height: 809px;
+        min-height: calc(100vh - 141px);        
     }
     .page {
         .page-title {
-            padding-top: 50px;
-            padding-bottom: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
             h1 {
                 text-align: center;
                 color: #ffffff;

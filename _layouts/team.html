@@ -17,10 +17,10 @@ layout: page
                     <h3>{{teammate.title}}</h3>
                 </div>
                 <div class="icon-image">
-                    <a href="{{teammate.social.linkedin}}"><img src="/img/team/team-in.png" /></a>
+                    <a href="{{teammate.social.linkedin}}" target="_blank" rel="noopener noreferrer"><img src="/img/team/team-in.png" /></a>
                 </div>
                 <div class="text">
-                    <p aria-expanded="false">{{teammate.text}}</p>
+                    <div aria-expanded="false" class="all-text">{{teammate.text | markdownify}}</div>
                     <div class="show-more">
                         <a href="#">Show more</a>
                     </div>

@@ -18,14 +18,14 @@ transactions:
   images:
   - "/img/transactions/trans-fishman.png"
   - "/img/transactions/trans-blackstone.png"
-  text: Financial Advisor to the fishman group
+  text: Financial Advisor to the Fishman group
 - year: 2016
   status: Sold
-  title: Har-Tuv Plant to Someone
+  title: Har-Tuv Plant to Weil Family
   images:
   - "/img/transactions/trans-cial.png"
   - "/img/transactions/trans-nesher.png"
-  text: 'Financial Advisor to Nesher and Clal Industries '
+  text: Financial Advisor to the Fishman group
 - year: 2012
   status: Sold
   title: KAPLAM to KIDUM

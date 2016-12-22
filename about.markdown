@@ -7,7 +7,7 @@ order: 1
 layout: about_overview
 ---
 
-CINCOPA (formerly "Epstein Capital") was founded in 2005 by near Nir Epstein as an independent investment banking boutique that provides a comprehensive suite of financial advisory services to corporations, private equity founds and high net-worth individuals.
+CINCOPA (formerly "Epstein Capital") was founded in 2005 by Nir Epstein as an independent investment banking boutique that provides a comprehensive suite of financial advisory services to corporations, private equity funds and high net-worth individuals.
 
 
 

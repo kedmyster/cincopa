@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: info@cincopa.com
+email: info@cincopa.co.il
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
@@ -27,8 +27,9 @@ exclude:
 tagline: Global Investment Boutique
 phone: "+972-3710-4000"
 address: |-
-  Millennium Tower<br/>
-  17 HaArba'a Street<br/>
-  Tel Aviv 64739<br/>
+  101 Rokach Blvd.,
+  <br/>
+  Tel Aviv 6153101,
+  <br/>
   Israel
 fax: "+972-3710-4027"

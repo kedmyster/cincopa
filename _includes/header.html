@@ -14,7 +14,7 @@
         {% assign sorted_pages = site.pages | sort:"order" %} 
         {% for my_page in sorted_pages %} 
           {% if my_page.title and my_page.showInMenu %}
-            {% if my_page.url == page.url %}
+            {% if (my_page.url == page.url) or (page.url contains my_page.url) %}
               <li class="active">
                 <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               </li>
