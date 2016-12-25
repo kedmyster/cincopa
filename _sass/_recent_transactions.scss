@@ -11,7 +11,6 @@
         .section.transactions {
             text-align: center;
             margin-top: -50px;
-
             p {
                 font-family: 'Palanquin', sans-serif;
             }
@@ -34,9 +33,9 @@
                     &:nth-child(1),
                     &:nth-child(2),
                     &:nth-child(3) {
-                        .text{
+                        .text {
                             height: 130px;
-                            p{
+                            p {
                                 height: 130px;
                             }
                         }
@@ -54,6 +53,7 @@
                         top: 0;
                         left: 50%;
                         transform: translateX(-50%) translateY(-50%);
+                        z-index: 2;
                     }
                     .title {
                         background-color: #000000;
@@ -64,10 +64,10 @@
                             margin: 0;
                             min-height: 48px;
                             font-size: 16px;
-                            @include media ($tablet){
+                            @include media ($tablet) {
                                 font-size: 18px;
                             }
-                            @include media ($desktop){
+                            @include media ($desktop) {
                                 font-size: 20px;
                             }
                         }
@@ -106,18 +106,20 @@
                             left: 50%;
                             transform: translate(-50%, -50%);
                             font-size: 16px;
-                            height: 60px;
-
+                            // height: 60px;
                         }
                     }
                     .images {
-                        padding-top: 20px;
+                        padding-top: 30px;
                         padding-bottom: 30px;
-                        border-bottom: 2px solid rgba(220, 220, 220, 0.7);
                         max-width: 220px;
                         margin-left: auto;
                         margin-right: auto;
-                        margin-bottom: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-flow: row;
+                        flex-wrap: wrap;
                         img {
                             vertical-align: middle;
                             margin-left: 10px;
@@ -125,6 +127,7 @@
                             max-width: 86px;
                             height: auto;
                             filter: grayscale(100%);
+                            display: inline-block;
                         }
                         /*img + img{
                     margin-left: 5px;
@@ -134,14 +137,13 @@
                         background-color: #000000;
                         height: 130px;
                         p {
-                            padding-left: 10px;
-                            padding-right: 10px;
-                            height: 130px;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            height: 147px;
                         }
                     }
-
-                    .images{
-                        height: 110px;
+                    .images {
+                        height: 147px;
                     }
                 }
             }

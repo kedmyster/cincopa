@@ -14,7 +14,11 @@ layout: page
             <img src="{{image}}" /> {% endfor %}
         </div>
             <div class="status">
-                <p>{{transaction.status}}</p>
+                {% if transaction.status %}
+                    <p>{{transaction.status}}</p>
+                {% else %}
+                    <p>&nbsp;</p>
+                {% endif %}
             </div>
             <div class="title">
                 <h2>{{transaction.title}}</h2>

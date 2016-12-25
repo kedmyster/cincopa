@@ -6,26 +6,26 @@ showInMenu: true
 order: 5
 transactions:
 - year: 2016
-  status: N/A
+  status: 
   title: Restructuring
   images:
   - "/img/transactions/AFIgroup.png"
   text: Exclusive Financial Advisor to the AFI group and its Bondholders
 - year: 2016
-  status: N/A
+  status: 
   title: Acquisition
   images:
   - "/img/transactions/news.png"
   text: Execlusive Financial Advisor to the seller (Media market)
 - year: 2015
-  status: N/A
+  status: 
   title: Acquisition
   images:
   - "/img/transactions/trans-fishman.png"
   - "/img/transactions/trans-blackstone.png"
   text: Financial Advisor to the Fishman Group in the sale of T4U to Blackstone
 - year: 2015
-  status: N/A
+  status: 
   title: Divestiture
   images:
   - "/img/transactions/trans-cial.png"
@@ -33,8 +33,8 @@ transactions:
   text: Financial Advisor to Nesher and Clal Industries in the sale of Har-Tuv Cement
     Plant
 - year: 2014
-  status: N/A
-  title: N/A
+  status: 
+  title: 
   images:
   - "/img/transactions/ECI.png"
   - "/img/transactions/ashmore.png"
@@ -53,28 +53,28 @@ transactions:
   - "/img/transactions/JEC.png"
   text: Financial Advisor to Jerusalem Economy in the Sale of its French Subsidiary
 - year: 2013
-  status: N/A
+  status: 
   title: Acquisition
   images:
   - "/img/transactions/med.acr.agency.png"
   - "/img/transactions/subaro.png"
   text: Advisor to Mediternean Car Agency in the Purchase of Subaru Israeli Business
 - year: 2013
-  status: N/A
+  status: 
   title: Divestiture
   images:
   - "/img/transactions/kaplan.png"
   - "/img/transactions/kidum.png"
   text: Advisor to Kaplan in the Sale of Kidum
 - year: 2012
-  status: N/A
+  status: 
   title: Acquisition
   images:
   - "/img/transactions/med.acr.agency.png"
   - "/img/transactions/iveco.png"
   text: Advisor to Mediternean Car Agency in the Purchase of Iveco Israeli Business
 - year: 2011
-  status: N/A
+  status: 
   title: Acquisition
   images:
   - "/img/transactions/med.acr.agency.png"
@@ -88,7 +88,7 @@ transactions:
   text: Sole advisor to Golden Pages bond holders in an ILS 520 million bank debt
     and private bonds restructuring
 - year: 2009
-  status: N/A
+  status: 
   title: Acquisition
   images:
   - "/img/transactions/jpmorgan.png"
@@ -110,7 +110,7 @@ transactions:
   text: Sole advisor to Eden Springs, the leading European HOD mineral water company
     in a USD 300 million financing by Och-Ziff and leading European banks
 - year: 2007
-  status: N/A
+  status: 
   title: Acquisitions
   images:
   - "/img/transactions/nilit.png"
