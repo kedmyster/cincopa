@@ -1,5 +1,5 @@
 ---
-title: Recent transactions
+title: Selected transactions
 date: 2016-11-02 11:24:00 Z
 permalink: "/transactions/"
 showInMenu: true
@@ -99,7 +99,7 @@ transactions:
   status: 80M ILS
   title: PIPE
   images:
-  - "/img/transactions/kamada.jpg"
+  - "/img/transactions/Kamada.jpg"
   text: Sole advisor to Kamada Ltd. in an ILS 80 million PIPE
 - year: 2008
   status: "€306M"
