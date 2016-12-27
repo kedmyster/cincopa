@@ -9,7 +9,7 @@ transactions:
   status: 
   title: Restructuring
   images:
-  - "/img/transactions/AFIgroup.png"
+  - "/img/transactions/AFIgroup.jpg"
   text: Exclusive Financial Advisor to the AFI group and its Bondholders
 - year: 2016
   status: 
@@ -92,14 +92,14 @@ transactions:
   title: Acquisition
   images:
   - "/img/transactions/jpmorgan.png"
-  - "/img/transactions/nilit.png"
+  - "/img/transactions/nilit.jpg"
   - "/img/transactions/nylstar.png"
   text: Sole advisor to Nilit on the acquisition of Nylstar Inc. from J.P.Morgan
 - year: 2009
   status: 80M ILS
   title: PIPE
   images:
-  - "/img/transactions/kamada.png"
+  - "/img/transactions/Kamada.jpg"
   text: Sole advisor to Kamada Ltd. in an ILS 80 million PIPE
 - year: 2008
   status: 306M
@@ -113,7 +113,7 @@ transactions:
   status: 
   title: Acquisitions
   images:
-  - "/img/transactions/nilit.png"
+  - "/img/transactions/nilit.jpg"
   text: Sole advisor to Nilit (a global nylon manufacturer) on several major acquisitions
     and investments and a significant private equity investment by Markstone Capital
     Group
