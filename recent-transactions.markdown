@@ -99,7 +99,7 @@ transactions:
   status: 80M ILS
   title: PIPE
   images:
-  - "/img/transactions/Kamada.jpg"
+  - "/img/transactions/kamada.jpg"
   text: Sole advisor to Kamada Ltd. in an ILS 80 million PIPE
 - year: 2008
   status: 306M
