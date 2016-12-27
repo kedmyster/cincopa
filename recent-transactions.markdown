@@ -16,7 +16,7 @@ transactions:
   title: Acquisition
   images:
   - "/img/transactions/news.png"
-  text: Execlusive Financial Advisor to the seller (Media market)
+  text: Exclusive Financial Advisor to the seller (Media market)
 - year: 2015
   status: 
   title: Acquisition
@@ -34,7 +34,7 @@ transactions:
     Plant
 - year: 2014
   status: 
-  title: 
+  title: Acquisition
   images:
   - "/img/transactions/ECI.png"
   - "/img/transactions/ashmore.png"
@@ -47,7 +47,7 @@ transactions:
   text: Joint Financial Advisor to the Coordinating Committee of the Secured Vessel
     Lenders
 - year: 2014
-  status: 283M
+  status: "€283M"
   title: Divestiture
   images:
   - "/img/transactions/JEC.png"
@@ -102,7 +102,7 @@ transactions:
   - "/img/transactions/kamada.jpg"
   text: Sole advisor to Kamada Ltd. in an ILS 80 million PIPE
 - year: 2008
-  status: 306M
+  status: "€306M"
   title: Financing
   images:
   - "/img/transactions/Och_Ziff_logo.png"
